@@ -220,7 +220,20 @@
 				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Cursor/FX_Cursor.uasset",
 				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Cursor/SM_CursorMesh.uasset",
 				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Cursor/M_Cursor.uasset",
-				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Cursor/T_Arrow.uasset"
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Cursor/T_Arrow.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BB_Ennemy.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BT_Ennemy.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/AIC_Ennemy.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Weapons/S_WeaponStats.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/S_EnnemiesWaves.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/DT_EnnemiesWaves.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy2.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BTTask_AttackPlayer.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_DistanceEnnemy_Child.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Projectile.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/FF/MCWAVTOXMOJDZ17FENR0RR.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/0U/LJOJ6O0M99Q9E9HJGR3QOO.uasset"
 			]
 		}
 	]
