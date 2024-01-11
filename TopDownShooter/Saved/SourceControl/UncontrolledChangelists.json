@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/_defaultMat.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/dark.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/darkMetal.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/green.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/metal.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/pink.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/purple.uasset",
+				"D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/Materials/yellow.uasset"
+			]
+		}
+	]
+}
