@@ -2825,3 +2825,813 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.01.11-12.37.13:848][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.01.11-12.37.13:850][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
 [2024.01.11-12.37.13:888][303]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.01.11-12.38.35:336][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.11-12.38.35:341][117]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.11-12.38.35:341][117]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2024.01.11-12.38.35:343][117]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 1 ms (total: 3 ms)
+[2024.01.11-12.38.35:343][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.11-12.38.35:343][117]PIE: New page: PIE session: TopDownMap (11 janv. 2024 à 14:38:35)
+[2024.01.11-12.38.35:343][117]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.11-12.38.35:349][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005133s)
+[2024.01.11-12.38.35:349][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005164s)
+[2024.01.11-12.38.35:352][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.01.11-12.38.35:354][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.38.35:354][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.11-12.38.35:355][117]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.11-12.38.35:355][117]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.11-12.38.35:355][117]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.11-12.38.35:355][117]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.11-12.38.35:355][117]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.11-12.38.35:356][117]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.11-12.38.35:357][117]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 65 ms)
+[2024.01.11-12.38.35:357][117]LogPlayLevel: PIE: World Init took: (0.002657s)
+[2024.01.11-12.38.35:357][117]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.11-12.38.35:357][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.11-12.38.35:357][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.11-12.38.35:357][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.11-12.38.35:357][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.11-12.38.35:357][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.11-12.38.35:360][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.11-12.38.35:381][117]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleur (Synaptics HD Audio)
+[2024.01.11-12.38.35:382][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.11-12.38.35:382][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.11-12.38.35:382][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.11-12.38.35:382][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.11-12.38.35:382][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.11-12.38.35:385][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.11-12.38.35:385][117]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.11-12.38.35:385][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.11-12.38.35:385][117]LogAudio: Display: Audio Device (ID: 3) registered with world 'TopDownMap'.
+[2024.01.11-12.38.35:385][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.11-12.38.35:387][117]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2024.01.11-12.38.35:389][117]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2024.01.11-13.38.35
+[2024.01.11-12.38.35:389][117]LogWorld: Bringing up level for play took: 0.001849
+[2024.01.11-12.38.35:391][117]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.01.11-12.38.35:395][117]PIE: Server logged in
+[2024.01.11-12.38.35:396][117]PIE: Play in editor total start time 0,054 seconds.
+[2024.01.11-12.38.44:962][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.11-12.38.44:962][213]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2024.01.11-12.38.44:962][213]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.11-12.38.44:963][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.38.44:963][213]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.11-12.38.44:966][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.11-12.38.44:968][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.38.44:973][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.11-12.38.44:973][213]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.11-12.38.44:973][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.11-12.38.44:975][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.11-12.38.44:981][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.01.11-12.38.45:030][217]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.01.11-12.38.53:863][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.38.56:540][429]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2024.01.11-12.38.56:541][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.38.56:541][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.11-12.38.56:551][429]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.11-12.38.57:299][429]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.11-12.38.57:485][431]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.39.00:799][741]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2024.01.11-12.39.00:805][741]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.11-12.39.00:805][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.39.08:626][590]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/TopDown/Input/IMC_Default.IMC_Default
+[2024.01.11-12.39.37:871][527]LogSlate: Window 'IMC_Default' being destroyed
+[2024.01.11-12.40.19:377][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MF_ProcGrid.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset
+[2024.01.11-12.40.19:377][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_PrototypeGrid_Gray.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset
+[2024.01.11-12.40.19:377][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_PrototypeGrid_TopDark.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_Solid_Blue.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_PrototypeGrid.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_Solid.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Materials/M_Solid.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Textures/T_GridChecker_A.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_ChamferCube.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Cube.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Meshes/SM_Cube.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Cylinder.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset
+[2024.01.11-12.40.19:378][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_QuarterCylinder.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset
+[2024.01.11-12.40.19:379][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Meshes/SM_Ramp.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/LevelPrototyping/Meshes/SM_Ramp.uasset
+[2024.01.11-12.40.19:380][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/ABP_Manny.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/ABP_Manny.uasset
+[2024.01.11-12.40.19:397][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Meshes/SKM_Manny_Simple.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset
+[2024.01.11-12.40.19:418][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Meshes/SK_Mannequin.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset
+[2024.01.11-12.40.19:418][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/M_Mannequin.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/M_Mannequin.uasset
+[2024.01.11-12.40.19:418][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset
+[2024.01.11-12.40.19:426][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Rigs/PA_Mannequin.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset
+[2024.01.11-12.40.19:436][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset
+[2024.01.11-12.40.19:436][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Fall_Loop.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.uasset
+[2024.01.11-12.40.19:436][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Idle.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Idle.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Jump.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Land.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Run_Fwd.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset
+[2024.01.11-12.40.19:437][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_BN.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_D.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_N.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_N.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_Tan.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_BN.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_D.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uasset
+[2024.01.11-12.40.19:438][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_N.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset
+[2024.01.11-12.40.19:439][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_02_Tan.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uasset
+[2024.01.11-12.40.19:456][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Shared/T_UE_Logo_M.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset
+[2024.01.11-12.40.19:492][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Functions/CA_Mannequin.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Functions/CA_Mannequin.uasset
+[2024.01.11-12.40.19:492][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Functions/ChromaticCurve.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Functions/ChromaticCurve.uasset
+[2024.01.11-12.40.19:492][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Functions/MF_Diffraction.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Functions/MF_Diffraction.uasset
+[2024.01.11-12.40.19:492][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Functions/MF_logo3layers.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Functions/MF_logo3layers.uasset
+[2024.01.11-12.40.19:493][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Functions/ML_BaseColorFallOff.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff.uasset
+[2024.01.11-12.40.19:494][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset
+[2024.01.11-12.40.19:494][644]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset to D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset
+[2024.01.11-12.40.19:510][644]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack)
+[2024.01.11-12.40.19:533][644]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2024.01.11-12.40.19:538][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+[2024.01.11-12.40.19:544][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2024.01.11-12.40.19:549][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap.umap" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+[2024.01.11-12.40.19:556][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset"
+[2024.01.11-12.40.19:561][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/IMC_Default.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Input/IMC_Default.uasset"
+[2024.01.11-12.40.19:566][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Jump.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Input/Actions/IA_Jump.uasset"
+[2024.01.11-12.40.19:570][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Look.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Input/Actions/IA_Look.uasset"
+[2024.01.11-12.40.19:574][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Move.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Input/Actions/IA_Move.uasset"
+[2024.01.11-12.40.19:579][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset"
+[2024.01.11-12.40.19:583][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset"
+[2024.01.11-12.40.19:588][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset"
+[2024.01.11-12.40.19:593][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset"
+[2024.01.11-12.40.19:597][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset"
+[2024.01.11-12.40.19:601][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset"
+[2024.01.11-12.40.19:606][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
+[2024.01.11-12.40.19:610][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset"
+[2024.01.11-12.40.19:616][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
+[2024.01.11-12.40.19:620][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset"
+[2024.01.11-12.40.19:625][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset"
+[2024.01.11-12.40.19:629][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset"
+[2024.01.11-12.40.19:634][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset"
+[2024.01.11-12.40.19:639][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset"
+[2024.01.11-12.40.19:644][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset"
+[2024.01.11-12.40.19:649][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset"
+[2024.01.11-12.40.19:654][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset"
+[2024.01.11-12.40.19:659][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset"
+[2024.01.11-12.40.19:663][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset"
+[2024.01.11-12.40.19:668][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset"
+[2024.01.11-12.40.19:672][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset"
+[2024.01.11-12.40.19:677][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset"
+[2024.01.11-12.40.19:682][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset"
+[2024.01.11-12.40.19:686][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset"
+[2024.01.11-12.40.19:692][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset"
+[2024.01.11-12.40.19:698][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset"
+[2024.01.11-12.40.19:703][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset"
+[2024.01.11-12.40.19:708][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset"
+[2024.01.11-12.40.19:713][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset"
+[2024.01.11-12.40.19:718][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset"
+[2024.01.11-12.40.19:723][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset"
+[2024.01.11-12.40.19:728][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
+[2024.01.11-12.40.19:733][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset"
+[2024.01.11-12.40.19:738][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset"
+[2024.01.11-12.40.19:743][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset"
+[2024.01.11-12.40.19:747][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset"
+[2024.01.11-12.40.19:752][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset"
+[2024.01.11-12.40.19:757][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset"
+[2024.01.11-12.40.19:761][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset"
+[2024.01.11-12.40.19:766][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset"
+[2024.01.11-12.40.19:770][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset"
+[2024.01.11-12.40.19:776][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset"
+[2024.01.11-12.40.19:780][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset"
+[2024.01.11-12.40.19:784][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset"
+[2024.01.11-12.40.19:789][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset"
+[2024.01.11-12.40.19:794][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset"
+[2024.01.11-12.40.19:798][644]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset" to "D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset"
+[2024.01.11-12.40.20:018][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.11-12.40.20:067][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.40.20:118][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.40.20:151][644]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.11-12.40.20:151][644]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacterE1B67CAF48452D7AD32FCE89C7E5C587.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.11-12.40.20:163][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 1.81 sec)
+[2024.01.11-12.40.20:178][644]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.11-12.40.20:178][644]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.11-12.40.22:200][845]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.11-12.40.22:214][845]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.11-12.40.23:727][  4]LogSlate: Window 'Add Content to the Project' being destroyed
+[2024.01.11-12.40.29:283][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.11-12.40.30:929][532]LogSlate: Window 'Save Content' being destroyed
+[2024.01.11-12.40.30:952][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.11-12.40.31:040][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/altar-stone" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/altar-stone.uasset" SILENT=true
+[2024.01.11-12.40.31:043][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/altar-stone
+[2024.01.11-12.40.31:043][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/altar-stone16162EED4FF3870636625BBC48E2F58D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/altar-stone.uasset'
+[2024.01.11-12.40.31:053][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/altar-wood" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/altar-wood.uasset" SILENT=true
+[2024.01.11-12.40.31:055][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/altar-wood
+[2024.01.11-12.40.31:055][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/altar-wood3681C12F46AFAA3CAAE15684ADBEEFA5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/altar-wood.uasset'
+[2024.01.11-12.40.31:064][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/bench" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/bench.uasset" SILENT=true
+[2024.01.11-12.40.31:066][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/bench
+[2024.01.11-12.40.31:066][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/bench87B13E7E4691F908B5156A87B35EF25F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/bench.uasset'
+[2024.01.11-12.40.31:075][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/bench-damaged" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/bench-damaged.uasset" SILENT=true
+[2024.01.11-12.40.31:078][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/bench-damaged
+[2024.01.11-12.40.31:078][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/bench-damaged93B738BA46A40EEF18DA1F822F23F377.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/bench-damaged.uasset'
+[2024.01.11-12.40.31:088][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterA" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterA.uasset" SILENT=true
+[2024.01.11-12.40.31:092][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterA
+[2024.01.11-12.40.31:092][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterA14A121B8483B9887C6A62B9CDC8F9BAC.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterA.uasset'
+[2024.01.11-12.40.31:101][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterB" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterB.uasset" SILENT=true
+[2024.01.11-12.40.31:105][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterB
+[2024.01.11-12.40.31:105][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterBE3C1D8B5411B8506180564BB2F25B5D7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterB.uasset'
+[2024.01.11-12.40.31:114][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterC" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterC.uasset" SILENT=true
+[2024.01.11-12.40.31:117][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterC
+[2024.01.11-12.40.31:117][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterC94F8F2C047AC73FCE35BA1A47805995A.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterC.uasset'
+[2024.01.11-12.40.31:128][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterD" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterD.uasset" SILENT=true
+[2024.01.11-12.40.31:131][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterD
+[2024.01.11-12.40.31:131][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterD0C613C5646E5B42B2958498196CF227D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterD.uasset'
+[2024.01.11-12.40.31:142][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterE" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterE.uasset" SILENT=true
+[2024.01.11-12.40.31:146][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterE
+[2024.01.11-12.40.31:146][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterE8BC36B244E2B953FC37EDBA52C537E02.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterE.uasset'
+[2024.01.11-12.40.31:156][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterF" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterF.uasset" SILENT=true
+[2024.01.11-12.40.31:160][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterF
+[2024.01.11-12.40.31:160][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterF8E22AD264436C08613DE588ED231F35E.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterF.uasset'
+[2024.01.11-12.40.31:170][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterG" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterG.uasset" SILENT=true
+[2024.01.11-12.40.31:173][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterG
+[2024.01.11-12.40.31:173][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterG1A7250B742FCA9DC005745A0F3F10AA5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterG.uasset'
+[2024.01.11-12.40.31:183][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterH" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterH.uasset" SILENT=true
+[2024.01.11-12.40.31:186][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterH
+[2024.01.11-12.40.31:186][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterH71075EE54A69EBD369F6808218D181AF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterH.uasset'
+[2024.01.11-12.40.31:197][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterI" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterI.uasset" SILENT=true
+[2024.01.11-12.40.31:201][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterI
+[2024.01.11-12.40.31:201][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterI023EFD294A27484131AB238F645886CD.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterI.uasset'
+[2024.01.11-12.40.31:213][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterJ" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterJ.uasset" SILENT=true
+[2024.01.11-12.40.31:216][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterJ
+[2024.01.11-12.40.31:216][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterJ62AFA6E44DAFBA3FF2AE4BAA1DE568FF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterJ.uasset'
+[2024.01.11-12.40.31:226][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterK" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterK.uasset" SILENT=true
+[2024.01.11-12.40.31:229][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterK
+[2024.01.11-12.40.31:229][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterK7C14A9DB4910D694B459699BC91FBD29.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterK.uasset'
+[2024.01.11-12.40.31:238][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterL" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterL.uasset" SILENT=true
+[2024.01.11-12.40.31:241][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterL
+[2024.01.11-12.40.31:241][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterL8D2386F94A6F21DBD6B4F78CDE7B4755.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterL.uasset'
+[2024.01.11-12.40.31:251][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterM" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterM.uasset" SILENT=true
+[2024.01.11-12.40.31:254][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterM
+[2024.01.11-12.40.31:255][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterM5D45555A4C302FE7B6B99699CA925BBF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterM.uasset'
+[2024.01.11-12.40.31:264][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterN" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterN.uasset" SILENT=true
+[2024.01.11-12.40.31:267][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterN
+[2024.01.11-12.40.31:268][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterN06A226054AD3BD5E1D0604BFB67D86E7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterN.uasset'
+[2024.01.11-12.40.31:279][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterO" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterO.uasset" SILENT=true
+[2024.01.11-12.40.31:283][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterO
+[2024.01.11-12.40.31:283][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterO508454034F93343E8F62EFB1BD34C9FC.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterO.uasset'
+[2024.01.11-12.40.31:293][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterP" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterP.uasset" SILENT=true
+[2024.01.11-12.40.31:297][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterP
+[2024.01.11-12.40.31:297][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterPC15016FC42F7A8AE73644FB59ECB4562.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterP.uasset'
+[2024.01.11-12.40.31:308][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterQ" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterQ.uasset" SILENT=true
+[2024.01.11-12.40.31:311][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterQ
+[2024.01.11-12.40.31:311][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterQ6D9CDC3D4A1DD61B3057D0A866F84540.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterQ.uasset'
+[2024.01.11-12.40.31:320][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/blasterR" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterR.uasset" SILENT=true
+[2024.01.11-12.40.31:323][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/blasterR
+[2024.01.11-12.40.31:323][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/blasterR3EB75C324513AB46071DDDB5C2C92A14.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/blasterR.uasset'
+[2024.01.11-12.40.31:333][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/border-pillar" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/border-pillar.uasset" SILENT=true
+[2024.01.11-12.40.31:336][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/border-pillar
+[2024.01.11-12.40.31:336][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/border-pillarE79C29D2444BC1A4C292DBB5AADECDA7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/border-pillar.uasset'
+[2024.01.11-12.40.31:347][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/brick-wall" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall.uasset" SILENT=true
+[2024.01.11-12.40.31:349][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/brick-wall
+[2024.01.11-12.40.31:349][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/brick-wallC0BB0AB941E466CF7412D7B252EBBBCD.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall.uasset'
+[2024.01.11-12.40.31:359][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/brick-wall-curve" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall-curve.uasset" SILENT=true
+[2024.01.11-12.40.31:361][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/brick-wall-curve
+[2024.01.11-12.40.31:361][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/brick-wall-curve21DD51C24CFA2F254EA3928DED6F9FFC.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall-curve.uasset'
+[2024.01.11-12.40.31:374][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/brick-wall-curve-small
+[2024.01.11-12.40.31:374][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/brick-wall-curve-small718D1CD940013B32FEE38BBBE52AA73C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall-curve-small.uasset'
+[2024.01.11-12.40.31:385][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/brick-wall-end" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall-end.uasset" SILENT=true
+[2024.01.11-12.40.31:387][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/brick-wall-end
+[2024.01.11-12.40.31:387][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/brick-wall-end94C611AF4F2E3E89506E9CBD50C669EF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/brick-wall-end.uasset'
+[2024.01.11-12.40.31:397][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/candle" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/candle.uasset" SILENT=true
+[2024.01.11-12.40.31:400][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/candle
+[2024.01.11-12.40.31:400][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/candle24045182484FE027D4D0DC8BFD871A89.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/candle.uasset'
+[2024.01.11-12.40.31:411][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/candle-multiple" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/candle-multiple.uasset" SILENT=true
+[2024.01.11-12.40.31:414][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/candle-multiple
+[2024.01.11-12.40.31:414][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/candle-multiple4B1F750D4B653A4B6887509A9FC1BAD9.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/candle-multiple.uasset'
+[2024.01.11-12.40.31:426][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_arm_left
+[2024.01.11-12.40.31:426][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_arm_left5080C69F4C83F448A42A968872B809BD.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_arm_left.uasset'
+[2024.01.11-12.40.31:438][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_arm_right
+[2024.01.11-12.40.31:438][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_arm_rightA3FAEE174E146BC20C0A67B1F90564A4.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_arm_right.uasset'
+[2024.01.11-12.40.31:451][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_head
+[2024.01.11-12.40.31:451][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_head731B29F1456ED63A6C8A839B99354755.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_head.uasset'
+[2024.01.11-12.40.31:463][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_leg_left
+[2024.01.11-12.40.31:463][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_leg_left005CA0DA49A532A714A4AB948D78D2CE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_leg_left.uasset'
+[2024.01.11-12.40.31:475][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_leg_right
+[2024.01.11-12.40.31:475][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_leg_right9E2C16694CC5634C031B0AAF6875235A.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_leg_right.uasset'
+[2024.01.11-12.40.31:486][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-digger_torso
+[2024.01.11-12.40.31:486][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-digger_torso1947E5BA48793855ECC3379CBA05CECB.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-digger_torso.uasset'
+[2024.01.11-12.40.31:498][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-ghost_arm_left
+[2024.01.11-12.40.31:499][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-ghost_arm_left696C43524EE61E2A0540DE9506953A8E.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-ghost_arm_left.uasset'
+[2024.01.11-12.40.31:513][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-ghost_arm_right
+[2024.01.11-12.40.31:513][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-ghost_arm_right4D826D07419EEBAB3C88CE9A63349210.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-ghost_arm_right.uasset'
+[2024.01.11-12.40.31:524][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-ghost_torso
+[2024.01.11-12.40.31:524][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-ghost_torso788223FC447219609171B794DD566486.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-ghost_torso.uasset'
+[2024.01.11-12.40.31:536][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_arm_left
+[2024.01.11-12.40.31:536][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_arm_left7777CA304678183F5C30759CE3772A50.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_arm_left.uasset'
+[2024.01.11-12.40.31:548][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_arm_right
+[2024.01.11-12.40.31:548][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_arm_right45C1E19545C7EAAD57DB8CB31547244A.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_arm_right.uasset'
+[2024.01.11-12.40.31:561][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_head
+[2024.01.11-12.40.31:561][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_head95895069407B8C28541086ADC1950F5D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_head.uasset'
+[2024.01.11-12.40.31:572][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_leg_left
+[2024.01.11-12.40.31:573][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_leg_left15BB61514FB483D60E07C3B86EB2DE79.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_leg_left.uasset'
+[2024.01.11-12.40.31:585][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_leg_right
+[2024.01.11-12.40.31:585][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_leg_right81DDAF8348A0139B54DEA69445E3D111.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_leg_right.uasset'
+[2024.01.11-12.40.31:597][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-skeleton_torso
+[2024.01.11-12.40.31:597][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-skeleton_torso9A0372564C08AD670FE6CF866100A22B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-skeleton_torso.uasset'
+[2024.01.11-12.40.31:611][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_arm_left
+[2024.01.11-12.40.31:611][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_arm_leftDDBCCC4F42F5C3E5541CBBBB9F8EEA1B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_arm_left.uasset'
+[2024.01.11-12.40.31:623][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_arm_right
+[2024.01.11-12.40.31:623][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_arm_right2C4136E84C9D191ED2A647BA82665A82.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_arm_right.uasset'
+[2024.01.11-12.40.31:635][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_cape
+[2024.01.11-12.40.31:635][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_capeE6F3519340D678E08981B8A37FD8632C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_cape.uasset'
+[2024.01.11-12.40.31:649][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_head
+[2024.01.11-12.40.31:649][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_headAA342DE341A518D8C3BA41BD3A5AAED6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_head.uasset'
+[2024.01.11-12.40.31:661][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_leg_left
+[2024.01.11-12.40.31:661][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_leg_leftA14877DB43A8DD477EBFE682B3B1AA9D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_leg_left.uasset'
+[2024.01.11-12.40.31:673][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_leg_right
+[2024.01.11-12.40.31:673][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_leg_right0E1858954920EA8D434145BBCB07DC9C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_leg_right.uasset'
+[2024.01.11-12.40.31:685][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-vampire_torso
+[2024.01.11-12.40.31:685][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-vampire_torsoA484747C44E583740EE4FFA324EF17F1.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-vampire_torso.uasset'
+[2024.01.11-12.40.31:697][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_arm_left
+[2024.01.11-12.40.31:697][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_arm_left7CF2847646A6ED6C49C2598EBA015922.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_arm_left.uasset'
+[2024.01.11-12.40.31:709][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_arm_right
+[2024.01.11-12.40.31:709][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_arm_rightBAE42A9847BB5AF249106C87EF8C993A.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_arm_right.uasset'
+[2024.01.11-12.40.31:721][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_head
+[2024.01.11-12.40.31:721][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_head1E4FA6814FE2213C2D1E04ACD4F396C8.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_head.uasset'
+[2024.01.11-12.40.31:733][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_leg_left
+[2024.01.11-12.40.31:733][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_leg_left68228F454961548B4CB0A58430046EAC.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_leg_left.uasset'
+[2024.01.11-12.40.31:746][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_leg_right
+[2024.01.11-12.40.31:746][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_leg_right6D7255B94E9E5C560E7BCD846CA9EB7B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_leg_right.uasset'
+[2024.01.11-12.40.31:758][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/character-zombie_torso
+[2024.01.11-12.40.31:758][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/character-zombie_torso6523B5DC4F8198678C2551AECA5A5906.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/character-zombie_torso.uasset'
+[2024.01.11-12.40.31:767][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/clipA" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/clipA.uasset" SILENT=true
+[2024.01.11-12.40.31:771][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/clipA
+[2024.01.11-12.40.31:771][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/clipAB7C05AED425BB51C35265895D9E52CC5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/clipA.uasset'
+[2024.01.11-12.40.31:782][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/coffin-old_coffin_old
+[2024.01.11-12.40.31:782][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/coffin-old_coffin_old3999C66D4B2AB7380CE1C693797E1CF6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/coffin-old_coffin_old.uasset'
+[2024.01.11-12.40.31:792][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/coffin_coffin" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/coffin_coffin.uasset" SILENT=true
+[2024.01.11-12.40.31:795][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/coffin_coffin
+[2024.01.11-12.40.31:795][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/coffin_coffinE2B4794F4618A87BC67CCF934F61FAF7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/coffin_coffin.uasset'
+[2024.01.11-12.40.31:805][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/coffin_lid" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/coffin_lid.uasset" SILENT=true
+[2024.01.11-12.40.31:809][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/coffin_lid
+[2024.01.11-12.40.31:809][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/coffin_lid4E4E8D5C445A5E7B4823E1BAD395FD54.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/coffin_lid.uasset'
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: ================================================
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Total job queries 144, among them cache hits 100 (69.44%)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 25 distinct outputs (78.12%)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: RAM used: 794,69 KiB of 1,60 GiB budget. Usage: 0.05%
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Shaders Compiled: 32
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100%)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Average time worker was idle: 48.83 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Time job spent in pending queue: average 0.34 s, longest 0.81 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 1.44 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Job life time (pending + execution): average 0.83 s, max 1.47
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Shader code size: average 42,302 KiB, min 29,711 KiB, max 61,465 KiB
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.24 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Average processing rate: 7.55 jobs/sec
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Total thread time: 7,779 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Total thread preprocess time: 0,834 s
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Percentage time preprocessing: 10.73%
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Effective parallelization: 1.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.32 sec, max 0.34 sec, min 0.29 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.29 sec, max 0.32 sec, min 0.25 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.27 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.17% of total time (compiled    2 times, average 0.32 sec, max 0.34 sec, min 0.29 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.50% of total time (compiled    2 times, average 0.29 sec, max 0.32 sec, min 0.26 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.34% of total time (compiled    2 times, average 0.29 sec, max 0.32 sec, min 0.25 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.08% of total time (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.27 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.86% of total time (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2024.01.11-12.40.32:947][532]LogShaderCompilers: Display: ================================================
+[2024.01.11-12.40.32:959][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/colormap" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/colormap.uasset" SILENT=true
+[2024.01.11-12.40.32:961][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/colormap
+[2024.01.11-12.40.32:961][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/colormapDC77E329416D2E69AEB1348EE3A9BAED.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/colormap.uasset'
+[2024.01.11-12.40.32:970][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/Textures/colormap
+[2024.01.11-12.40.32:970][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/colormap4A30AF2A4FD94D413533D589DC53316D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/Textures/colormap.uasset'
+[2024.01.11-12.40.32:976][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/colormap_ncl1_1" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/colormap_ncl1_1.uasset" SILENT=true
+[2024.01.11-12.40.32:980][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/colormap_ncl1_1
+[2024.01.11-12.40.32:980][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/colormap_ncl1_1E868A8BD4B73923202E91DBD7DB0C584.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/colormap_ncl1_1.uasset'
+[2024.01.11-12.40.32:998][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/column-large_column_large
+[2024.01.11-12.40.32:998][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/column-large_column_largeD9DDC20B42D9C71690BAC1BCF0A811F4.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/column-large_column_large.uasset'
+[2024.01.11-12.40.33:019][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/cross-column_cross_column
+[2024.01.11-12.40.33:019][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/cross-column_cross_column5ECE099E44E9C0578A37C89FE1DDD1D7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/cross-column_cross_column.uasset'
+[2024.01.11-12.40.33:037][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/cross-wood_cross_wood
+[2024.01.11-12.40.33:037][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/cross-wood_cross_wood0C1BCB7947F6A5BF0141369DB3E9EBDA.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/cross-wood_cross_wood.uasset'
+[2024.01.11-12.40.33:054][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/cross_cross" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/cross_cross.uasset" SILENT=true
+[2024.01.11-12.40.33:058][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/cross_cross
+[2024.01.11-12.40.33:058][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/cross_cross133812E5424633F00950E880A7A11863.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/cross_cross.uasset'
+[2024.01.11-12.40.33:074][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/crypt-door_door" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-door_door.uasset" SILENT=true
+[2024.01.11-12.40.33:076][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-door_door
+[2024.01.11-12.40.33:076][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-door_door777559FE4C8684FBADCD04A89167535E.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-door_door.uasset'
+[2024.01.11-12.40.33:095][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-large-roof_crypt_large_roof
+[2024.01.11-12.40.33:095][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-large-roof_crypt_large_roo9888A1A040A4A45A7B7D7DADD4A93E6F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-large-roof_crypt_large_roof.uasset'
+[2024.01.11-12.40.33:115][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-large_crypt_large
+[2024.01.11-12.40.33:115][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-large_crypt_largeB7A73F2D4C59A4DAC2EB069541E59152.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-large_crypt_large.uasset'
+[2024.01.11-12.40.33:135][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-small-entrance-alternative_crypt_small_entrance_alternative
+[2024.01.11-12.40.33:135][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-small-entrance-alternative2AF9166443D202C9B36641BF8788E0A2.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-small-entrance-alternative_crypt_small_entrance_alternative.uasset'
+[2024.01.11-12.40.33:156][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-small-entrance_crypt_small_entrance
+[2024.01.11-12.40.33:156][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-small-entrance_crypt_smallA177734B4DCC836DE28A0F9972B631DB.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-small-entrance_crypt_small_entrance.uasset'
+[2024.01.11-12.40.33:174][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-small-roof_crypt_small_roof
+[2024.01.11-12.40.33:175][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-small-roof_crypt_small_rooEE3E81BB473F79D9A4BFCFAC7189B3B7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-small-roof_crypt_small_roof.uasset'
+[2024.01.11-12.40.33:192][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt-small_crypt_small
+[2024.01.11-12.40.33:192][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt-small_crypt_smallA702C2F948542CDF560A2FB065592256.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt-small_crypt_small.uasset'
+[2024.01.11-12.40.33:209][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/crypt_crypt" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt_crypt.uasset" SILENT=true
+[2024.01.11-12.40.33:211][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/crypt_crypt
+[2024.01.11-12.40.33:211][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/crypt_crypt2F0BBF644141605F2CB672A1C5B27DB0.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/crypt_crypt.uasset'
+[2024.01.11-12.40.33:229][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/debris-wood_debris_wood
+[2024.01.11-12.40.33:229][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/debris-wood_debris_wood5B10D50F43A3B731EBE3708FE2C1E839.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/debris-wood_debris_wood.uasset'
+[2024.01.11-12.40.33:248][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/debris_debris" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/debris_debris.uasset" SILENT=true
+[2024.01.11-12.40.33:250][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/debris_debris
+[2024.01.11-12.40.33:250][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/debris_debris556AD6D44B3A58580F554A8588791837.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/debris_debris.uasset'
+[2024.01.11-12.40.33:270][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/detail-bowl_detail_bowl
+[2024.01.11-12.40.33:270][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/detail-bowl_detail_bowl5221407F4F18D72049260AB778E8234F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/detail-bowl_detail_bowl.uasset'
+[2024.01.11-12.40.33:289][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/detail-chalice_detail_chalice
+[2024.01.11-12.40.33:289][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/detail-chalice_detail_chaliceC47BF1AC40658D2E91CF6EBF4664CCEC.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/detail-chalice_detail_chalice.uasset'
+[2024.01.11-12.40.33:307][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/detail-plate_detail_plate
+[2024.01.11-12.40.33:307][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/detail-plate_detail_plate092CCC3E4A1F6C713D7142AC4ADFF770.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/detail-plate_detail_plate.uasset'
+[2024.01.11-12.40.33:324][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/fence-damaged_fence_damaged
+[2024.01.11-12.40.33:324][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/fence-damaged_fence_damaged265E2D0E4B8BDADD4108A5819E03ACBE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/fence-damaged_fence_damaged.uasset'
+[2024.01.11-12.40.33:341][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/fence-gate_fence_gate
+[2024.01.11-12.40.33:342][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/fence-gate_fence_gateE7624B354CD89BEE5F8DA38E27CACE64.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/fence-gate_fence_gate.uasset'
+[2024.01.11-12.40.33:356][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/fence_fence" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/fence_fence.uasset" SILENT=true
+[2024.01.11-12.40.33:359][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/fence_fence
+[2024.01.11-12.40.33:359][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/fence_fence4C6ED4864FA6C988D04D9CA9E052C687.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/fence_fence.uasset'
+[2024.01.11-12.40.33:376][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/fire-basket_fire_basket
+[2024.01.11-12.40.33:376][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/fire-basket_fire_basketD2C56FC543B5E98F7E42FEB2C585662D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/fire-basket_fire_basket.uasset'
+[2024.01.11-12.40.33:391][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/foamBulletA" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletA.uasset" SILENT=true
+[2024.01.11-12.40.33:393][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/foamBulletA
+[2024.01.11-12.40.33:393][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/foamBulletAEBF7844A4F2AF9795DBFFBA758231990.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletA.uasset'
+[2024.01.11-12.40.33:407][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/foamBulletA-low" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletA-low.uasset" SILENT=true
+[2024.01.11-12.40.33:409][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/foamBulletA-low
+[2024.01.11-12.40.33:409][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/foamBulletA-lowD71C93C64BB185B09053DDB7BA536196.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletA-low.uasset'
+[2024.01.11-12.40.33:424][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/foamBulletB" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletB.uasset" SILENT=true
+[2024.01.11-12.40.33:426][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/foamBulletB
+[2024.01.11-12.40.33:426][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/foamBulletBF8D0AACB4777A1C102FB128F81408619.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletB.uasset'
+[2024.01.11-12.40.33:444][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/foamBulletB-low" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletB-low.uasset" SILENT=true
+[2024.01.11-12.40.33:446][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/foamBulletB-low
+[2024.01.11-12.40.33:446][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/foamBulletB-low697F84E44BF91B7AD424E99B3E579886.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/foamBulletB-low.uasset'
+[2024.01.11-12.40.33:464][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/grave-border_grave_border
+[2024.01.11-12.40.33:464][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/grave-border_grave_borderA47421E848B7F5114CC12CBDAE667264.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/grave-border_grave_border.uasset'
+[2024.01.11-12.40.33:480][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/grave_grave" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/grave_grave.uasset" SILENT=true
+[2024.01.11-12.40.33:484][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/grave_grave
+[2024.01.11-12.40.33:484][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/grave_graveCD4D80D94A874A55B489E588BEE8D676.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/grave_grave.uasset'
+[2024.01.11-12.40.33:496][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-bevel_gravestone_bevel
+[2024.01.11-12.40.33:496][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-bevel_gravestone_beve8A92E1824A3801D0DD6A839BB87EDF01.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-bevel_gravestone_bevel.uasset'
+[2024.01.11-12.40.33:509][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-broken_gravestone_broken
+[2024.01.11-12.40.33:509][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-broken_gravestone_bro93F22D3E4112ED6FC0B507AD1A3F4952.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-broken_gravestone_broken.uasset'
+[2024.01.11-12.40.33:521][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-cross-large_gravestone_cross_large
+[2024.01.11-12.40.33:521][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-cross-large_graveston326AC74648D1339C7D58B28D5559D7D6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-cross-large_gravestone_cross_large.uasset'
+[2024.01.11-12.40.33:534][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-cross_gravestone_cross
+[2024.01.11-12.40.33:534][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-cross_gravestone_cros8E8F7FB146A2DBA03CA24098C9B13DBB.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-cross_gravestone_cross.uasset'
+[2024.01.11-12.40.33:547][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-debris_gravestone_debris
+[2024.01.11-12.40.33:547][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-debris_gravestone_deb49B1DE864C5B98008F0FF38F36962319.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-debris_gravestone_debris.uasset'
+[2024.01.11-12.40.33:559][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-decorative_gravestone_decorative
+[2024.01.11-12.40.33:559][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-decorative_gravestone5B8657A14AE070CC595457B61888153B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-decorative_gravestone_decorative.uasset'
+[2024.01.11-12.40.33:571][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-flat-open_gravestone_flat_open
+[2024.01.11-12.40.33:571][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-flat-open_gravestone_D910E88E404C90827319CD9CE93716DF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-flat-open_gravestone_flat_open.uasset'
+[2024.01.11-12.40.33:583][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-flat-open_lid
+[2024.01.11-12.40.33:583][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-flat-open_lid531F7A4645BDB8F6E3F855B98698B88F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-flat-open_lid.uasset'
+[2024.01.11-12.40.33:596][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-flat_gravestone_flat
+[2024.01.11-12.40.33:596][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-flat_gravestone_flat0D6B3ABB49A3D57B689C50A7AC102A76.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-flat_gravestone_flat.uasset'
+[2024.01.11-12.40.33:607][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-roof_gravestone_roof
+[2024.01.11-12.40.33:607][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-roof_gravestone_roof52B08B0E4A3A1E54F74A399354E81FCA.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-roof_gravestone_roof.uasset'
+[2024.01.11-12.40.33:618][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-round_gravestone_round
+[2024.01.11-12.40.33:618][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-round_gravestone_roun7551A87A4DBB116CC05FA1B50C6D2E1C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-round_gravestone_round.uasset'
+[2024.01.11-12.40.33:630][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/gravestone-wide_gravestone_wide
+[2024.01.11-12.40.33:630][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/gravestone-wide_gravestone_wide5779CEE345D2B9D186BCD69AC30A7E2C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/gravestone-wide_gravestone_wide.uasset'
+[2024.01.11-12.40.33:643][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/hay-bale-bundled_hay_bale_bundled
+[2024.01.11-12.40.33:643][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/hay-bale-bundled_hay_bale_bundleA6BAE1964C12D7DD97E77C9ECAC31806.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/hay-bale-bundled_hay_bale_bundled.uasset'
+[2024.01.11-12.40.33:655][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/hay-bale_hay_bale
+[2024.01.11-12.40.33:655][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/hay-bale_hay_baleC14C6C8B47A260E01E6D619BE0DBDC09.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/hay-bale_hay_bale.uasset'
+[2024.01.11-12.40.33:667][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-bar_iron_fence_bar
+[2024.01.11-12.40.33:667][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-bar_iron_fence_barD266A98B49DB21F3E2CBB49ECBACC91F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-bar_iron_fence_bar.uasset'
+[2024.01.11-12.40.33:680][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-border-column_iron_fence_border_column
+[2024.01.11-12.40.33:680][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-border-column_iron_fe89B249724DE927C7E15C669FCD932598.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-border-column_iron_fence_border_column.uasset'
+[2024.01.11-12.40.33:695][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-border-curve_iron_fence_border_curve
+[2024.01.11-12.40.33:695][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-border-curve_iron_fenFFE35A8D4223523499BE6786D710D083.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-border-curve_iron_fence_border_curve.uasset'
+[2024.01.11-12.40.33:707][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-border-gate_iron_fence_border_gate
+[2024.01.11-12.40.33:707][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-border-gate_iron_fenc2F915E3246AD0A218415F09844ECE42D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-border-gate_iron_fence_border_gate.uasset'
+[2024.01.11-12.40.33:719][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-border_iron_fence_border
+[2024.01.11-12.40.33:719][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-border_iron_fence_bor1E24FEA2426FF6486B57D282926CE2AE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-border_iron_fence_border.uasset'
+[2024.01.11-12.40.33:732][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-curve_iron_fence_curve
+[2024.01.11-12.40.33:732][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-curve_iron_fence_curv23E198234C6383072A0F7D9379C49969.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-curve_iron_fence_curve.uasset'
+[2024.01.11-12.40.33:746][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence-damaged_iron_fence_damaged
+[2024.01.11-12.40.33:746][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence-damaged_iron_fence_da34A555E24DFC509A78D287A87F66EC79.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence-damaged_iron_fence_damaged.uasset'
+[2024.01.11-12.40.33:758][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/iron-fence_iron_fence
+[2024.01.11-12.40.33:758][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/iron-fence_iron_fence6A4C729F4754B5C227B2C292D165C1F4.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/iron-fence_iron_fence.uasset'
+[2024.01.11-12.40.33:769][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/lantern-candle_lantern_candle
+[2024.01.11-12.40.33:769][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/lantern-candle_lantern_candle251B82B442F7F86408D9849D1AB0F0B4.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/lantern-candle_lantern_candle.uasset'
+[2024.01.11-12.40.33:783][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/lantern-glass_lantern_glass
+[2024.01.11-12.40.33:783][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/lantern-glass_lantern_glass60DCAF874DB062321EAB6B83882746C7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/lantern-glass_lantern_glass.uasset'
+[2024.01.11-12.40.33:796][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/lightpost-all_lightpost_all
+[2024.01.11-12.40.33:796][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/lightpost-all_lightpost_allCC6C32144E93E7FB7B4777B08AFA1243.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/lightpost-all_lightpost_all.uasset'
+[2024.01.11-12.40.33:809][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/lightpost-double_lightpost_double
+[2024.01.11-12.40.33:809][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/lightpost-double_lightpost_doublFB88956343777D579C75B8BC26F0BB9C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/lightpost-double_lightpost_double.uasset'
+[2024.01.11-12.40.33:821][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/lightpost-single_lightpost_single
+[2024.01.11-12.40.33:821][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/lightpost-single_lightpost_singlF4EC74C0490D2E3C810F57A126C4F1D5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/lightpost-single_lightpost_single.uasset'
+[2024.01.11-12.40.33:834][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pillar-large_pillar_large
+[2024.01.11-12.40.33:834][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pillar-large_pillar_largeFAAF0FCA4817207D0CDC9DA0567EA2A0.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pillar-large_pillar_large.uasset'
+[2024.01.11-12.40.33:846][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pillar-obelisk_pillar_obelisk
+[2024.01.11-12.40.33:846][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pillar-obelisk_pillar_obelisk51A60C5B478F4990A5670589D10154C7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pillar-obelisk_pillar_obelisk.uasset'
+[2024.01.11-12.40.33:858][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pillar-small_pillar_small
+[2024.01.11-12.40.33:858][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pillar-small_pillar_small86043E074C422274BE369EB419144553.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pillar-small_pillar_small.uasset'
+[2024.01.11-12.40.33:871][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pillar-square_pillar_square
+[2024.01.11-12.40.33:871][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pillar-square_pillar_square2A03EF6E4A9E01D86247B6B6DF547C11.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pillar-square_pillar_square.uasset'
+[2024.01.11-12.40.33:885][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pine-crooked_pine_crooked
+[2024.01.11-12.40.33:885][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pine-crooked_pine_crookedA7B973FB47F0A94FFB686BB022F19691.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pine-crooked_pine_crooked.uasset'
+[2024.01.11-12.40.33:898][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pine-fall-crooked_pine_fall_crooked
+[2024.01.11-12.40.33:898][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pine-fall-crooked_pine_fall_croo9AC6CDAF4CE2721EAF7A999452AE4032.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pine-fall-crooked_pine_fall_crooked.uasset'
+[2024.01.11-12.40.33:910][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pine-fall_pine_fall
+[2024.01.11-12.40.33:910][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pine-fall_pine_fall76C3E5C243AC9B1E7F3116866C5E6903.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pine-fall_pine_fall.uasset'
+[2024.01.11-12.40.33:921][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/pine_pine" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pine_pine.uasset" SILENT=true
+[2024.01.11-12.40.33:923][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pine_pine
+[2024.01.11-12.40.33:924][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pine_pine15C9A0FE4BB11FC92D5704A1C0E700C3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pine_pine.uasset'
+[2024.01.11-12.40.33:935][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pumpkin-carved_pumpkin_carved
+[2024.01.11-12.40.33:935][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pumpkin-carved_pumpkin_carved2BAF05B040EDE195C286578A0098D470.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pumpkin-carved_pumpkin_carved.uasset'
+[2024.01.11-12.40.33:951][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pumpkin-tall-carved_pumpkin_tall_carved
+[2024.01.11-12.40.33:951][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pumpkin-tall-carved_pumpkin_tall0A34F4654FE78DC389FDFF9A9A0D1176.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pumpkin-tall-carved_pumpkin_tall_carved.uasset'
+[2024.01.11-12.40.33:962][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pumpkin-tall_pumpkin_tall
+[2024.01.11-12.40.33:962][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pumpkin-tall_pumpkin_tall503212134E4F20A343CFD69E6569D114.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pumpkin-tall_pumpkin_tall.uasset'
+[2024.01.11-12.40.33:972][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/pumpkin_pumpkin" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pumpkin_pumpkin.uasset" SILENT=true
+[2024.01.11-12.40.33:975][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/pumpkin_pumpkin
+[2024.01.11-12.40.33:975][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/pumpkin_pumpkin055DC0044B1593D9FC247C9795099772.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/pumpkin_pumpkin.uasset'
+[2024.01.11-12.40.33:984][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/road_road" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/road_road.uasset" SILENT=true
+[2024.01.11-12.40.33:986][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/road_road
+[2024.01.11-12.40.33:987][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/road_road2F532E55408B155E7476B0A39758FC14.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/road_road.uasset'
+[2024.01.11-12.40.33:998][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/rocks-tall_rocks_tall
+[2024.01.11-12.40.33:998][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/rocks-tall_rocks_tall20C7CDBE44D2D172B439C7AF6C22F762.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/rocks-tall_rocks_tall.uasset'
+[2024.01.11-12.40.34:009][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/rocks_rocks" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/rocks_rocks.uasset" SILENT=true
+[2024.01.11-12.40.34:011][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/rocks_rocks
+[2024.01.11-12.40.34:011][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/rocks_rocks848DB42C498B0729591F2A8851DCAF5E.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/rocks_rocks.uasset'
+[2024.01.11-12.40.34:021][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/scopeA" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/scopeA.uasset" SILENT=true
+[2024.01.11-12.40.34:024][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/scopeA
+[2024.01.11-12.40.34:024][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/scopeA2FA63F044BD242188AD31193E1899EE7.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/scopeA.uasset'
+[2024.01.11-12.40.34:034][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/scopeB" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/scopeB.uasset" SILENT=true
+[2024.01.11-12.40.34:038][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/scopeB
+[2024.01.11-12.40.34:038][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/scopeBFEF1E2BC408DB809E0B812BC0DD9F41F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/scopeB.uasset'
+[2024.01.11-12.40.34:050][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/shovel-dirt_shovel_dirt
+[2024.01.11-12.40.34:050][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/shovel-dirt_shovel_dirtA016B60D480B643B32C4F88AC10E2EA4.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/shovel-dirt_shovel_dirt.uasset'
+[2024.01.11-12.40.34:059][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/shovel_shovel" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/shovel_shovel.uasset" SILENT=true
+[2024.01.11-12.40.34:062][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/shovel_shovel
+[2024.01.11-12.40.34:062][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/shovel_shovel969E8AC04CAE0AEADFD4A9B099E55656.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/shovel_shovel.uasset'
+[2024.01.11-12.40.34:074][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/stone-wall-column_stone_wall_column
+[2024.01.11-12.40.34:074][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/stone-wall-column_stone_wall_col2B338E864B40D01B8D6DCD8012BE90D6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/stone-wall-column_stone_wall_column.uasset'
+[2024.01.11-12.40.34:087][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/stone-wall-curve_stone_wall_curve
+[2024.01.11-12.40.34:087][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/stone-wall-curve_stone_wall_curv7899B3C042C7316FC2C423B676C47A8E.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/stone-wall-curve_stone_wall_curve.uasset'
+[2024.01.11-12.40.34:099][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/stone-wall-damaged_stone_wall_damaged
+[2024.01.11-12.40.34:099][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/stone-wall-damaged_stone_wall_da89AF12AF4E5F54FC60C151AB3F79E4D5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/stone-wall-damaged_stone_wall_damaged.uasset'
+[2024.01.11-12.40.34:112][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/stone-wall_stone_wall
+[2024.01.11-12.40.34:112][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/stone-wall_stone_wall536A7E124CC2484BB7A464AF001B7D14.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/stone-wall_stone_wall.uasset'
+[2024.01.11-12.40.34:122][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/targetA" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetA.uasset" SILENT=true
+[2024.01.11-12.40.34:125][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/targetA
+[2024.01.11-12.40.34:125][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/targetA396E1AC74FD77DB087C372A6B742E499.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetA.uasset'
+[2024.01.11-12.40.34:134][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/targetB" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetB.uasset" SILENT=true
+[2024.01.11-12.40.34:137][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/targetB
+[2024.01.11-12.40.34:137][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/targetB09EA59B846F9A1CF8063D7BA4CC79404.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetB.uasset'
+[2024.01.11-12.40.34:147][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Weapons/targetSmall" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetSmall.uasset" SILENT=true
+[2024.01.11-12.40.34:149][532]LogSavePackage: Moving output files for package: /Game/Assets/Weapons/targetSmall
+[2024.01.11-12.40.34:149][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/targetSmall6740B0E549C4234835F8BB936E5F4208.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Weapons/targetSmall.uasset'
+[2024.01.11-12.40.34:161][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/trunk-long_trunk_long
+[2024.01.11-12.40.34:161][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/trunk-long_trunk_long2D10CD6A4191EEC1C12CBEA6D78F9315.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/trunk-long_trunk_long.uasset'
+[2024.01.11-12.40.34:171][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/trunk_trunk" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/trunk_trunk.uasset" SILENT=true
+[2024.01.11-12.40.34:173][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/trunk_trunk
+[2024.01.11-12.40.34:173][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/trunk_trunk03BFF5AE414F39F09594169F20451D6F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/trunk_trunk.uasset'
+[2024.01.11-12.40.34:183][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/urn_lid" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/urn_lid.uasset" SILENT=true
+[2024.01.11-12.40.34:185][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/urn_lid
+[2024.01.11-12.40.34:185][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/urn_lidF74C4669459B7642F40EF69C7F15EE95.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/urn_lid.uasset'
+[2024.01.11-12.40.34:195][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Environment/urn_urn" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/urn_urn.uasset" SILENT=true
+[2024.01.11-12.40.34:198][532]LogSavePackage: Moving output files for package: /Game/Assets/Environment/urn_urn
+[2024.01.11-12.40.34:198][532]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/urn_urn1CB73DCD4D56EE18F053B3AB7C08DFA3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/Assets/Environment/urn_urn.uasset'
+[2024.01.11-12.40.34:206][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.25 sec (total: 5.06 sec)
+[2024.01.11-12.40.34:276][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.40.34:276][532]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.11-12.40.34:276][532]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.11-12.40.34:276][532]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.11-12.40.34:303][532]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.11-12.40.34:303][532]LogWorldPartition: Display: WorldPartition initialize took 26 ms (total: 92 ms)
+[2024.01.11-12.40.34:306][532]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.01.11-12.40.34:306][532]Cmd: MAP LOAD FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.11-12.40.34:306][532]LightingResults: New page: Lighting Build
+[2024.01.11-12.40.34:306][532]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2024.01.11-12.40.34:344][532]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.11-12.40.34:344][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.40.34:346][532]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.11-12.40.34:346][532]MapCheck: New page: Map Check
+[2024.01.11-12.40.34:346][532]LightingResults: New page: Lighting Build
+[2024.01.11-12.40.34:359][532]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.11-12.40.34:362][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.11-12.40.34:364][532]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.11-12.40.34:364][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.40.34:364][532]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.11-12.40.34:378][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.11-12.40.34:389][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.11-12.40.34:397][532]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2024.01.11-12.40.34:397][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.40.34:397][532]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.11-12.40.34:397][532]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.11-12.40.34:398][532]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.11-12.40.34:398][532]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.11-12.40.34:398][532]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.11-12.40.34:425][532]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.11-12.40.34:425][532]LogWorldPartition: Display: WorldPartition initialize took 27 ms (total: 119 ms)
+[2024.01.11-12.40.34:463][532]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.11-12.40.34:478][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.11-12.40.34:481][532]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.11-12.40.34:481][532]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,185ms to complete.
+[2024.01.11-12.40.34:502][532]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/altar-stone.altar-stone
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/altar-wood.altar-wood
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/bench.bench
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/bench-damaged.bench-damaged
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterA.blasterA
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterB.blasterB
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterC.blasterC
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterD.blasterD
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterE.blasterE
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterF.blasterF
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterG.blasterG
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterH.blasterH
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterI.blasterI
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterJ.blasterJ
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterK.blasterK
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterL.blasterL
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterM.blasterM
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterN.blasterN
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterO.blasterO
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterP.blasterP
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterQ.blasterQ
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/blasterR.blasterR
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/border-pillar.border-pillar
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/brick-wall.brick-wall
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/brick-wall-curve.brick-wall-curve
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/brick-wall-curve-small.brick-wall-curve-small
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/brick-wall-end.brick-wall-end
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/candle.candle
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/candle-multiple.candle-multiple
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_arm_left.character-digger_arm_left
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_arm_right.character-digger_arm_right
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_head.character-digger_head
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_leg_left.character-digger_leg_left
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_leg_right.character-digger_leg_right
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-digger_torso.character-digger_torso
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-ghost_arm_left.character-ghost_arm_left
+[2024.01.11-12.40.34:502][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-ghost_arm_right.character-ghost_arm_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-ghost_torso.character-ghost_torso
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_arm_left.character-skeleton_arm_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_arm_right.character-skeleton_arm_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_head.character-skeleton_head
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_leg_left.character-skeleton_leg_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_leg_right.character-skeleton_leg_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-skeleton_torso.character-skeleton_torso
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_arm_left.character-vampire_arm_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_arm_right.character-vampire_arm_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_cape.character-vampire_cape
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_head.character-vampire_head
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_leg_left.character-vampire_leg_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_leg_right.character-vampire_leg_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-vampire_torso.character-vampire_torso
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_arm_left.character-zombie_arm_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_arm_right.character-zombie_arm_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_head.character-zombie_head
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_leg_left.character-zombie_leg_left
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_leg_right.character-zombie_leg_right
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/character-zombie_torso.character-zombie_torso
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/clipA.clipA
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/coffin-old_coffin_old.coffin-old_coffin_old
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/coffin_coffin.coffin_coffin
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/coffin_lid.coffin_lid
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Environment/colormap.colormap
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Environment/Textures/colormap.colormap
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Assets/Environment/colormap_ncl1_1.colormap_ncl1_1
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/column-large_column_large.column-large_column_large
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/cross-column_cross_column.cross-column_cross_column
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/cross-wood_cross_wood.cross-wood_cross_wood
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/cross_cross.cross_cross
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-door_door.crypt-door_door
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-large-roof_crypt_large_roof.crypt-large-roof_crypt_large_roof
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-large_crypt_large.crypt-large_crypt_large
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-small-entrance-alternative_crypt_small_entrance_alternative.crypt-small-entrance-alternative_crypt_small_entrance_alternative
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-small-entrance_crypt_small_entrance.crypt-small-entrance_crypt_small_entrance
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-small-roof_crypt_small_roof.crypt-small-roof_crypt_small_roof
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt-small_crypt_small.crypt-small_crypt_small
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/crypt_crypt.crypt_crypt
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/debris-wood_debris_wood.debris-wood_debris_wood
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/debris_debris.debris_debris
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/detail-bowl_detail_bowl.detail-bowl_detail_bowl
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/detail-chalice_detail_chalice.detail-chalice_detail_chalice
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/detail-plate_detail_plate.detail-plate_detail_plate
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/fence-damaged_fence_damaged.fence-damaged_fence_damaged
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/fence-gate_fence_gate.fence-gate_fence_gate
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/fence_fence.fence_fence
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/fire-basket_fire_basket.fire-basket_fire_basket
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/foamBulletA.foamBulletA
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/foamBulletA-low.foamBulletA-low
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/foamBulletB.foamBulletB
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/foamBulletB-low.foamBulletB-low
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/grave-border_grave_border.grave-border_grave_border
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/grave_grave.grave_grave
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-bevel_gravestone_bevel.gravestone-bevel_gravestone_bevel
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-broken_gravestone_broken.gravestone-broken_gravestone_broken
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-cross-large_gravestone_cross_large.gravestone-cross-large_gravestone_cross_large
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-cross_gravestone_cross.gravestone-cross_gravestone_cross
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-debris_gravestone_debris.gravestone-debris_gravestone_debris
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-decorative_gravestone_decorative.gravestone-decorative_gravestone_decorative
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-flat-open_gravestone_flat_open.gravestone-flat-open_gravestone_flat_open
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-flat-open_lid.gravestone-flat-open_lid
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-flat_gravestone_flat.gravestone-flat_gravestone_flat
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-roof_gravestone_roof.gravestone-roof_gravestone_roof
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-round_gravestone_round.gravestone-round_gravestone_round
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/gravestone-wide_gravestone_wide.gravestone-wide_gravestone_wide
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/hay-bale-bundled_hay_bale_bundled.hay-bale-bundled_hay_bale_bundled
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/hay-bale_hay_bale.hay-bale_hay_bale
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-bar_iron_fence_bar.iron-fence-bar_iron_fence_bar
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-border-column_iron_fence_border_column.iron-fence-border-column_iron_fence_border_column
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-border-curve_iron_fence_border_curve.iron-fence-border-curve_iron_fence_border_curve
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-border-gate_iron_fence_border_gate.iron-fence-border-gate_iron_fence_border_gate
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-border_iron_fence_border.iron-fence-border_iron_fence_border
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-curve_iron_fence_curve.iron-fence-curve_iron_fence_curve
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence-damaged_iron_fence_damaged.iron-fence-damaged_iron_fence_damaged
+[2024.01.11-12.40.34:503][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/iron-fence_iron_fence.iron-fence_iron_fence
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/lantern-candle_lantern_candle.lantern-candle_lantern_candle
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/lantern-glass_lantern_glass.lantern-glass_lantern_glass
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/lightpost-all_lightpost_all.lightpost-all_lightpost_all
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/lightpost-double_lightpost_double.lightpost-double_lightpost_double
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/lightpost-single_lightpost_single.lightpost-single_lightpost_single
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pillar-large_pillar_large.pillar-large_pillar_large
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pillar-obelisk_pillar_obelisk.pillar-obelisk_pillar_obelisk
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pillar-small_pillar_small.pillar-small_pillar_small
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pillar-square_pillar_square.pillar-square_pillar_square
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pine-crooked_pine_crooked.pine-crooked_pine_crooked
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pine-fall-crooked_pine_fall_crooked.pine-fall-crooked_pine_fall_crooked
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pine-fall_pine_fall.pine-fall_pine_fall
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pine_pine.pine_pine
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pumpkin-carved_pumpkin_carved.pumpkin-carved_pumpkin_carved
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pumpkin-tall-carved_pumpkin_tall_carved.pumpkin-tall-carved_pumpkin_tall_carved
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pumpkin-tall_pumpkin_tall.pumpkin-tall_pumpkin_tall
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/pumpkin_pumpkin.pumpkin_pumpkin
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/road_road.road_road
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/rocks-tall_rocks_tall.rocks-tall_rocks_tall
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/rocks_rocks.rocks_rocks
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/scopeA.scopeA
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/scopeB.scopeB
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/shovel-dirt_shovel_dirt.shovel-dirt_shovel_dirt
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/shovel_shovel.shovel_shovel
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/stone-wall-column_stone_wall_column.stone-wall-column_stone_wall_column
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/stone-wall-curve_stone_wall_curve.stone-wall-curve_stone_wall_curve
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/stone-wall-damaged_stone_wall_damaged.stone-wall-damaged_stone_wall_damaged
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/stone-wall_stone_wall.stone-wall_stone_wall
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/targetA.targetA
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/targetB.targetB
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Weapons/targetSmall.targetSmall
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/trunk-long_trunk_long.trunk-long_trunk_long
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/trunk_trunk.trunk_trunk
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/urn_lid.urn_lid
+[2024.01.11-12.40.34:504][532]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Environment/urn_urn.urn_urn
+[2024.01.11-12.40.40:667][194]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.01.11-12.40.40:697][194]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.11-12.40.40:697][194]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.11-12.40.40:697][194]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.11-12.40.40:697][194]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.11-12.40.40:698][194]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.11-12.40.40:698][194]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 120 ms)
+[2024.01.11-12.40.40:708][194]LogObjectTools: Deleting 1 worlds: /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2024.01.11-12.40.40:708][194]LogObjectTools: Currently 7 active worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_3, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2024.01.11-12.40.40:723][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.11-12.40.47:304][194]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.11-12.40.47:375][194]LogUObjectGlobals: Force Deleting 54 Package(s):
+	Asset Name: /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+	Asset Type: Blueprint
+	Asset Name: /Game/TopDown/Input/Actions/IA_SetDestination_Click.IA_SetDestination_Click
+	Asset Type: InputAction
+	Asset Name: /Game/TopDown/Input/Actions/IA_SetDestination_Touch.IA_SetDestination_Touch
+	Asset Type: InputAction
+	Asset Name: /Game/TopDown/Input/IMC_Default.IMC_Default
+	Asset Type: InputMappingContext
+	Asset Name: /Game/TopDown/Blueprints/BP_TopDownController.BP_TopDownController
+	Asset Type: Blueprint
+	Asset Name: /Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode
+	Asset Type: Blueprint
+	Asset Name: /Game/TopDown/Maps/TopDownMap_BuiltData.TopDownMap_BuiltData
+	Asset Type: MapBuildDataRegistry
+	Asset Name: /Game/TopDown/Maps/TopDownMap.TopDownMap
+	Asset Type: World
+	Asset Name: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/A/RN/FHX05LPSBNMAJG3SW97PS7
+	Asset Type: Package
+	Asset Name: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap/6/KJ/HGBHM24D5RXIQ0FWMWET5K
+	Asset Type: Package
+[2024.01.11-12.40.47:601][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.11-12.40.47:673][194]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.11-12.40.47:673][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.11-12.40.47:674][194]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2024.01.11-12.40.48:449][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.11-12.40.48:463][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.11-12.40.48:475][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.11-12.40.48:521][194]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/TopDown/Maps/TopDownMap does not exist, will not scan.
+[2024.01.11-12.40.51:287][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.11-12.40.52:434][474]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.11-12.40.52:454][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.11-12.40.52:467][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.11-12.40.52:480][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.11-12.41.01:391][304]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/TopDown/Maps/TopDownMap does not exist, will not scan.
