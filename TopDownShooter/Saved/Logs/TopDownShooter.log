@@ -14458,3 +14458,545 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.18-12.48.55:030][969]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
 [2024.01.18-12.48.55:056][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
 [2024.01.18-12.48.55:101][970]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.01.18-12.53.43:504][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=10.123.128.152:56524, Sequence=0
+[2024.01.18-12.53.43:504][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.53.43:504][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.53.43:504][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.53.43:505][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 3/4 of stale message segements from Sender=10.123.129.6:61451, Sequence=0
+[2024.01.18-12.53.43:505][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 3/4 of stale message segements from Sender=10.123.129.6:61451, Sequence=0
+[2024.01.18-12.53.43:505][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.53.43:505][551]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.53.43:505][552]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-12.54.42:622][325]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.18-12.55.15:722][822]LogContentBrowser: Deferred new asset file creation: NewForceFeedbackEffect
+[2024.01.18-12.55.15:730][822]LogContentBrowser: Creating deferred item: NewForceFeedbackEffect
+[2024.01.18-12.55.15:740][823]LogContentBrowser: Renaming the item being created (Deferred Item: NewForceFeedbackEffect).
+[2024.01.18-12.55.25:423][979]LogContentBrowser: Attempting asset rename: NewForceFeedbackEffect -> FF_KillEnnemy
+[2024.01.18-12.55.25:424][979]LogContentBrowser: End creating deferred item NewForceFeedbackEffect
+[2024.01.18-12.55.32:877][813]LogAssetEditorSubsystem: Opening Asset editor for ForceFeedbackEffect /Game/TopDownShooter/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-12.55.59:699][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.18-12.55.59:704][199]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownShooter/Maps/MAP_MainMenu' took 0.026
+[2024.01.18-12.55.59:704][199]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownShooter/FF_KillEnnemy] ([1] browsable assets)...
+[2024.01.18-12.55.59:704][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownShooter/FF_KillEnnemy]
+[2024.01.18-12.55.59:705][199]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDownShooter/FF_KillEnnemy_Auto6
+[2024.01.18-12.55.59:705][199]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_KillEnnemy_Auto65FAC8D744E33E2F3774CB2BF72397597.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/Autosaves/Game/TopDownShooter/FF_KillEnnemy_Auto6.uasset'
+[2024.01.18-12.55.59:705][199]LogFileHelpers: Auto-saving content packages took 0.001
+[2024.01.18-12.56.27:425][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-12.56.27:460][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_KillEnnemy" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_KillEnnemy.uasset" SILENT=true
+[2024.01.18-12.56.27:461][831]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_KillEnnemy
+[2024.01.18-12.56.27:461][831]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_KillEnnemy5688BBC34C54A27A1BDF689CE432F257.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_KillEnnemy.uasset'
+[2024.01.18-12.56.27:470][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 12.6 sec)
+[2024.01.18-12.56.27:472][831]AssetCheck: New page: Asset Save: FF_KillEnnemy
+[2024.01.18-12.56.27:472][831]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-12.57.05:709][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-12.57.05:760][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_KillEnnemy" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_KillEnnemy.uasset" SILENT=true
+[2024.01.18-12.57.05:761][314]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_KillEnnemy
+[2024.01.18-12.57.05:761][314]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_KillEnnemy2F028FEC4A8AA0A574F2C4BA23A6A2D0.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_KillEnnemy.uasset'
+[2024.01.18-12.57.05:773][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 12.6 sec)
+[2024.01.18-12.57.05:774][314]AssetCheck: New page: Asset Save: FF_KillEnnemy
+[2024.01.18-12.57.05:774][314]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-12.57.20:652][743]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.20:652][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.21:745][814]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.21:746][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.21:753][814]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.21:753][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.22:830][884]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.22:830][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.22:838][884]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.22:838][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.23:804][942]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.23:804][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.23:811][942]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.23:811][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.25:303][ 46]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.25:303][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.26:319][106]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.26:319][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.26:327][106]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-12.57.26:327][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-12.57.30:215][352]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownShooter/Ennemies/BP_Ennemy.BP_Ennemy
+[2024.01.18-12.57.30:215][352]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-12.57.30:215][352]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.00.22:466][728]LogDerivedDataCache: D:/EDUSERVICES/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:49.075 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 27186 files in 26689 folders with total size 6092 MiB.
+[2024.01.18-13.00.54:294][327]BlueprintLog: New page: Compile BP_Ennemy
+[2024.01.18-13.00.54:376][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.18-13.00.55:298][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.00.55:418][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/Ennemies/BP_Ennemy" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset" SILENT=true
+[2024.01.18-13.00.55:451][364]LogSavePackage: Moving output files for package: /Game/TopDownShooter/Ennemies/BP_Ennemy
+[2024.01.18-13.00.55:451][364]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Ennemy9FC1A3D64CDFF1806AC38EA42922A62B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset'
+[2024.01.18-13.00.55:461][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 12.8 sec)
+[2024.01.18-13.00.55:463][364]AssetCheck: New page: Asset Save: BP_Ennemy
+[2024.01.18-13.00.55:463][364]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/Ennemies/BP_Ennemy.BP_Ennemy
+[2024.01.18-13.01.04:811][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.01.05:905][377]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.18-13.01.05:927][377]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownShooter/HF_KillEnnemy.HF_KillEnnemy
+	Asset Type: HapticFeedbackEffect_Curve
+[2024.01.18-13.01.06:319][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.18-13.01.06:337][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.18-13.01.06:352][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.01.18-13.01.09:385][660]LogContentBrowser: Deferred new asset file creation: NewForceFeedbackEffect
+[2024.01.18-13.01.09:396][660]LogContentBrowser: Creating deferred item: NewForceFeedbackEffect
+[2024.01.18-13.01.09:409][661]LogContentBrowser: Renaming the item being created (Deferred Item: NewForceFeedbackEffect).
+[2024.01.18-13.01.14:695][291]LogContentBrowser: Attempting asset rename: NewForceFeedbackEffect -> FF_TakeDamage
+[2024.01.18-13.01.14:696][291]LogContentBrowser: End creating deferred item NewForceFeedbackEffect
+[2024.01.18-13.01.16:439][486]LogAssetEditorSubsystem: Opening Asset editor for ForceFeedbackEffect /Game/TopDownShooter/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.01.23:831][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.01.23:895][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_TakeDamage" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset" SILENT=true
+[2024.01.18-13.01.23:895][348]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_TakeDamage
+[2024.01.18-13.01.23:895][348]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_TakeDamage5F4D1FFE4F9C154C4198658C6F3DD44D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset'
+[2024.01.18-13.01.23:905][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 12.9 sec)
+[2024.01.18-13.01.23:906][348]AssetCheck: New page: Asset Save: FF_TakeDamage
+[2024.01.18-13.01.23:906][348]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.01.50:135][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.01.50:194][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_TakeDamage" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset" SILENT=true
+[2024.01.18-13.01.50:195][410]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_TakeDamage
+[2024.01.18-13.01.50:195][410]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_TakeDamage8A46563E40B0F2A1236EFB86C61FA060.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset'
+[2024.01.18-13.01.50:204][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 12.9 sec)
+[2024.01.18-13.01.50:205][410]AssetCheck: New page: Asset Save: FF_TakeDamage
+[2024.01.18-13.01.50:205][410]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.02.07:337][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.02.07:376][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_TakeDamage" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset" SILENT=true
+[2024.01.18-13.02.07:377][425]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_TakeDamage
+[2024.01.18-13.02.07:377][425]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_TakeDamage900B5CD04498F637DA592587DB2A0FFD.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset'
+[2024.01.18-13.02.07:386][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 13.0 sec)
+[2024.01.18-13.02.07:387][425]AssetCheck: New page: Asset Save: FF_TakeDamage
+[2024.01.18-13.02.07:387][425]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.02.19:154][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.02.19:212][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_TakeDamage" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset" SILENT=true
+[2024.01.18-13.02.19:212][795]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_TakeDamage
+[2024.01.18-13.02.19:213][795]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_TakeDamage22C53F684B323616117F20A8BA863739.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_TakeDamage.uasset'
+[2024.01.18-13.02.19:222][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 13.1 sec)
+[2024.01.18-13.02.19:223][795]AssetCheck: New page: Asset Save: FF_TakeDamage
+[2024.01.18-13.02.19:223][795]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.02.44:262][622]BlueprintLog: New page: Compile BP_Ennemy
+[2024.01.18-13.02.44:304][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.18-13.02.44:973][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.02.45:093][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/Ennemies/BP_Ennemy" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset" SILENT=true
+[2024.01.18-13.02.45:125][654]LogSavePackage: Moving output files for package: /Game/TopDownShooter/Ennemies/BP_Ennemy
+[2024.01.18-13.02.45:125][654]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Ennemy34A45B9F432B12066A2718A439A37576.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset'
+[2024.01.18-13.02.45:136][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 13.2 sec)
+[2024.01.18-13.02.45:138][654]AssetCheck: New page: Asset Save: BP_Ennemy
+[2024.01.18-13.02.45:138][654]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/Ennemies/BP_Ennemy.BP_Ennemy
+[2024.01.18-13.02.49:430][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.18-13.02.50:451][135]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.18-13.02.50:468][135]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownShooter/HF_TakeDamage.HF_TakeDamage
+	Asset Type: HapticFeedbackEffect_Curve
+[2024.01.18-13.02.50:761][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.18-13.02.50:776][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.18-13.02.50:790][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.01.18-13.02.54:811][459]LogContentBrowser: Deferred new asset file creation: NewForceFeedbackEffect
+[2024.01.18-13.02.54:823][459]LogContentBrowser: Creating deferred item: NewForceFeedbackEffect
+[2024.01.18-13.02.54:837][460]LogContentBrowser: Renaming the item being created (Deferred Item: NewForceFeedbackEffect).
+[2024.01.18-13.02.59:303][979]LogContentBrowser: Attempting asset rename: NewForceFeedbackEffect -> FF_Death
+[2024.01.18-13.02.59:303][979]LogContentBrowser: End creating deferred item NewForceFeedbackEffect
+[2024.01.18-13.03.03:338][419]LogAssetEditorSubsystem: Opening Asset editor for ForceFeedbackEffect /Game/TopDownShooter/FF_Death.FF_Death
+[2024.01.18-13.03.18:613][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.03.18:661][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_Death" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset" SILENT=true
+[2024.01.18-13.03.18:662][199]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_Death
+[2024.01.18-13.03.18:662][199]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_Death9FCD49A44DFCCF0F19CD389503C35C48.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset'
+[2024.01.18-13.03.18:672][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 13.3 sec)
+[2024.01.18-13.03.18:673][199]AssetCheck: New page: Asset Save: FF_Death
+[2024.01.18-13.03.18:673][199]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_Death.FF_Death
+[2024.01.18-13.03.29:002][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.03.29:061][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_Death" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset" SILENT=true
+[2024.01.18-13.03.29:062][406]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_Death
+[2024.01.18-13.03.29:062][406]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_Death6BB08BB7436436D64B64628863CB2C73.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset'
+[2024.01.18-13.03.29:072][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 13.3 sec)
+[2024.01.18-13.03.29:073][406]AssetCheck: New page: Asset Save: FF_Death
+[2024.01.18-13.03.29:073][406]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_Death.FF_Death
+[2024.01.18-13.03.46:055][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.03.46:111][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/FF_Death" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset" SILENT=true
+[2024.01.18-13.03.46:112][411]LogSavePackage: Moving output files for package: /Game/TopDownShooter/FF_Death
+[2024.01.18-13.03.46:112][411]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_DeathBB6C65BB462B512874B6348FEF267996.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/FF_Death.uasset'
+[2024.01.18-13.03.46:122][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 13.4 sec)
+[2024.01.18-13.03.46:123][411]AssetCheck: New page: Asset Save: FF_Death
+[2024.01.18-13.03.46:123][411]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/FF_Death.FF_Death
+[2024.01.18-13.04.38:739][823]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.18-13.04.38:879][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.18-13.04.40:410][888]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.04.40:587][888]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.18-13.04.40:587][888]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacterD8B0A5F74B2E43E8A60E28A3787D5EC1.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.18-13.04.40:596][888]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 13.6 sec)
+[2024.01.18-13.04.40:598][888]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.18-13.04.40:598][888]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.18-13.04.50:889][875]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.18-13.04.50:905][875]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.18-13.04.50:920][876]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.18-13.04.53:465][141]LogContentBrowser: Attempting asset rename: NewFolder -> SaveGame
+[2024.01.18-13.04.53:465][141]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.18-13.05.01:829][463]LogSlate: Window 'Message' being destroyed
+[2024.01.18-13.05.01:837][463]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+BP_CustomGameInstance
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2024.01.18-13.05.01:847][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_CustomGameInstance.SKEL_BP_CustomGameInstance_C' ref from Metadata '/Game/TopDownShooter/BP_CustomGameInstance.PackageMetaData'
+[2024.01.18-13.05.01:847][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_CustomGameInstance.BP_CustomGameInstance_C' ref from Metadata '/Game/TopDownShooter/BP_CustomGameInstance.PackageMetaData'
+[2024.01.18-13.05.01:847][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_CustomGameInstance.BP_CustomGameInstance_C:ReceiveInit' ref from Metadata '/Game/TopDownShooter/BP_CustomGameInstance.PackageMetaData'
+[2024.01.18-13.05.01:847][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_CustomGameInstance.SKEL_BP_CustomGameInstance_C:ReceiveInit' ref from Metadata '/Game/TopDownShooter/BP_CustomGameInstance.PackageMetaData'
+[2024.01.18-13.05.01:866][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_SaveGameSystem.SKEL_BP_SaveGameSystem_C' ref from Metadata '/Game/TopDownShooter/BP_SaveGameSystem.PackageMetaData'
+[2024.01.18-13.05.01:866][463]LogMetaData: Removing '/Game/TopDownShooter/SaveGame/BP_SaveGameSystem.BP_SaveGameSystem_C' ref from Metadata '/Game/TopDownShooter/BP_SaveGameSystem.PackageMetaData'
+[2024.01.18-13.05.01:883][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.05.02:089][463]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.18-13.05.02:089][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacterDA8A6CEA4BCA7F489F518B98FDBDEC87.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.18-13.05.02:112][463]LogSavePackage: Moving output files for package: /Game/TopDownShooter/UI/Widgets/WBP_EndLevel
+[2024.01.18-13.05.02:112][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/WBP_EndLevel520EDAB4492B83DBD9E8F8B3DECB058C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/UI/Widgets/WBP_EndLevel.uasset'
+[2024.01.18-13.05.02:182][463]LogSavePackage: Moving output files for package: /Game/TopDownShooter/UI/Widgets/WBP_MainMenu
+[2024.01.18-13.05.02:182][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/WBP_MainMenu33DD707D43A1A880B8CFE4AB4F994DEB.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/UI/Widgets/WBP_MainMenu.uasset'
+[2024.01.18-13.05.02:187][463]LogSavePackage: Moving output files for package: /Game/TopDownShooter/SaveGame/BP_CustomGameInstance
+[2024.01.18-13.05.02:187][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_CustomGameInstance01B7514C48F713FCE8A4919C61B48B80.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/SaveGame/BP_CustomGameInstance.uasset'
+[2024.01.18-13.05.02:193][463]LogSavePackage: Moving output files for package: /Game/TopDownShooter/BP_CustomGameInstance
+[2024.01.18-13.05.02:194][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_CustomGameInstanceA6CB718A46459F473835ED87DCDD6482.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_CustomGameInstance.uasset'
+[2024.01.18-13.05.02:198][463]LogSavePackage: Moving output files for package: /Game/TopDownShooter/SaveGame/BP_SaveGameSystem
+[2024.01.18-13.05.02:198][463]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_SaveGameSystem504D57304DCF46D3A63E5699E1E0835D.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/SaveGame/BP_SaveGameSystem.uasset'
+[2024.01.18-13.05.02:214][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 329 ms (total: 13.9 sec)
+[2024.01.18-13.05.02:240][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.18-13.05.02:262][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.18-13.05.02:277][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.01.18-13.05.02:296][463]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.18-13.05.02:296][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.18-13.05.02:296][463]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/TopDownShooter/UI/Widgets/WBP_EndLevel.WBP_EndLevel
+[2024.01.18-13.05.02:296][463]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/TopDownShooter/UI/Widgets/WBP_MainMenu.WBP_MainMenu
+[2024.01.18-13.05.02:300][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/SaveGame/BP_CustomGameInstance.BP_CustomGameInstance
+[2024.01.18-13.05.02:300][463]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_CustomGameInstance.BP_CustomGameInstance
+[2024.01.18-13.05.02:300][463]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_CustomGameInstance.BP_CustomGameInstance_C
+[2024.01.18-13.05.02:300][463]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_CustomGameInstance.Default__BP_CustomGameInstance_C
+[2024.01.18-13.05.02:300][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/SaveGame/BP_SaveGameSystem.BP_SaveGameSystem
+[2024.01.18-13.05.05:142][699]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.18-13.05.05:155][699]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.18-13.05.05:169][700]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.18-13.05.07:740][967]LogContentBrowser: Attempting asset rename: NewFolder -> InLevels
+[2024.01.18-13.05.07:740][967]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.18-13.05.11:260][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_InvisibleWall.BP_InvisibleWall:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownShooter/BP_InvisibleWall.PackageMetaData'
+[2024.01.18-13.05.11:260][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_InvisibleWall.BP_InvisibleWall_C' ref from Metadata '/Game/TopDownShooter/BP_InvisibleWall.PackageMetaData'
+[2024.01.18-13.05.11:260][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_InvisibleWall.SKEL_BP_InvisibleWall_C' ref from Metadata '/Game/TopDownShooter/BP_InvisibleWall.PackageMetaData'
+[2024.01.18-13.05.11:260][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_InvisibleWall.SKEL_BP_InvisibleWall_C:BndEvt__BP_InvisibleWall_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/TopDownShooter/BP_InvisibleWall.PackageMetaData'
+[2024.01.18-13.05.11:260][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_InvisibleWall.SKEL_BP_InvisibleWall_C:UserConstructionScript' ref from Metadata '/Game/TopDownShooter/BP_InvisibleWall.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.BP_Shop:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.BP_Shop_C' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.SKEL_BP_Shop_C:UserConstructionScript' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.SKEL_BP_Shop_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.SKEL_BP_Shop_C:BndEvt__BP_Shop_Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.SKEL_BP_Shop_C' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:263][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Shop.BP_Shop_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownShooter/BP_Shop.PackageMetaData'
+[2024.01.18-13.05.11:267][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Vampire.BP_Vampire:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownShooter/BP_Vampire.PackageMetaData'
+[2024.01.18-13.05.11:267][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Vampire.SKEL_BP_Vampire_C' ref from Metadata '/Game/TopDownShooter/BP_Vampire.PackageMetaData'
+[2024.01.18-13.05.11:267][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Vampire.BP_Vampire_C' ref from Metadata '/Game/TopDownShooter/BP_Vampire.PackageMetaData'
+[2024.01.18-13.05.11:267][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Vampire.SKEL_BP_Vampire_C:UserConstructionScript' ref from Metadata '/Game/TopDownShooter/BP_Vampire.PackageMetaData'
+[2024.01.18-13.05.11:267][270]LogMetaData: Removing '/Game/TopDownShooter/InLevels/BP_Vampire.SKEL_BP_Vampire_C:BndEvt__BP_Vampire_Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/TopDownShooter/BP_Vampire.PackageMetaData'
+[2024.01.18-13.05.11:282][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.05.11:334][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/InLevels/BP_InvisibleWall
+[2024.01.18-13.05.11:334][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_InvisibleWall9D922D9E47804040EB0F98A0A929972A.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/InLevels/BP_InvisibleWall.uasset'
+[2024.01.18-13.05.11:340][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/BP_InvisibleWall" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_InvisibleWall.uasset" SILENT=true
+[2024.01.18-13.05.11:341][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/BP_InvisibleWall
+[2024.01.18-13.05.11:341][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_InvisibleWall1E633834476C13EFBE49CFBBCD469D7B.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_InvisibleWall.uasset'
+[2024.01.18-13.05.11:344][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/InLevels/BP_Shop" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/InLevels/BP_Shop.uasset" SILENT=true
+[2024.01.18-13.05.11:352][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/InLevels/BP_Shop
+[2024.01.18-13.05.11:352][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Shop59A76D3D45BD01C78452138692926E99.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/InLevels/BP_Shop.uasset'
+[2024.01.18-13.05.11:358][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/BP_Shop" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_Shop.uasset" SILENT=true
+[2024.01.18-13.05.11:358][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/BP_Shop
+[2024.01.18-13.05.11:359][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ShopDD3B1EC2402D27CF9411ADB63BFEC4A6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_Shop.uasset'
+[2024.01.18-13.05.11:431][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/InLevels/BP_Vampire" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/InLevels/BP_Vampire.uasset" SILENT=true
+[2024.01.18-13.05.11:436][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/InLevels/BP_Vampire
+[2024.01.18-13.05.11:436][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Vampire58730C2D4BE9D4381E92D694C28B4432.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/InLevels/BP_Vampire.uasset'
+[2024.01.18-13.05.11:441][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/BP_Vampire" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_Vampire.uasset" SILENT=true
+[2024.01.18-13.05.11:442][270]LogSavePackage: Moving output files for package: /Game/TopDownShooter/BP_Vampire
+[2024.01.18-13.05.11:442][270]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_VampireF13F8B7943C1EB9AD205C0AF4BF3B366.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/BP_Vampire.uasset'
+[2024.01.18-13.05.11:456][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 14.1 sec)
+[2024.01.18-13.05.11:480][270]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/InLevels/BP_InvisibleWall.BP_InvisibleWall
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_InvisibleWall.BP_InvisibleWall_C
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_InvisibleWall.BP_InvisibleWall
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_InvisibleWall.Default__BP_InvisibleWall_C
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/InLevels/BP_Shop.BP_Shop
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Shop.BP_Shop
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Shop.BP_Shop_C
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Shop.Default__BP_Shop_C
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/InLevels/BP_Vampire.BP_Vampire
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Vampire.BP_Vampire
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Vampire.BP_Vampire_C
+[2024.01.18-13.05.11:480][270]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/TopDownShooter/BP_Vampire.Default__BP_Vampire_C
+[2024.01.18-13.05.13:999][463]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.18-13.05.14:022][463]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.18-13.05.14:035][464]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.18-13.05.19:127][  6]LogContentBrowser: Attempting asset rename: NewFolder -> HapticEffects
+[2024.01.18-13.05.19:127][  6]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.18-13.05.22:630][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.05.22:814][337]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.18-13.05.22:814][337]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacter01E8ECF84A084E8E6037CFA583AD4E39.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.18-13.05.22:830][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownShooter/Ennemies/BP_Ennemy" FILE="D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset" SILENT=true
+[2024.01.18-13.05.22:863][337]LogSavePackage: Moving output files for package: /Game/TopDownShooter/Ennemies/BP_Ennemy
+[2024.01.18-13.05.22:863][337]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Ennemy40B2F12D4B7482DD93D3CABEA5AB1C77.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Ennemy.uasset'
+[2024.01.18-13.05.22:864][337]LogSavePackage: Moving output files for package: /Game/TopDownShooter/HapticEffects/FF_Death
+[2024.01.18-13.05.22:865][337]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_DeathF9060AB146A9F0D159EEF18A30E66E29.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/HapticEffects/FF_Death.uasset'
+[2024.01.18-13.05.22:868][337]LogSavePackage: Moving output files for package: /Game/TopDownShooter/HapticEffects/FF_KillEnnemy
+[2024.01.18-13.05.22:869][337]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_KillEnnemyC0AFDCB14D3D3395A542C5BF00E86496.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/HapticEffects/FF_KillEnnemy.uasset'
+[2024.01.18-13.05.22:870][337]LogSavePackage: Moving output files for package: /Game/TopDownShooter/HapticEffects/FF_TakeDamage
+[2024.01.18-13.05.22:871][337]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_TakeDamage09BC723F4C7ED309F8CFA685FCEAC586.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/HapticEffects/FF_TakeDamage.uasset'
+[2024.01.18-13.05.22:882][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 14.4 sec)
+[2024.01.18-13.05.22:918][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.01.18-13.05.22:935][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.18-13.05.22:949][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.01.18-13.05.22:969][337]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.18-13.05.22:969][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.18-13.05.22:969][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/Ennemies/BP_Ennemy.BP_Ennemy
+[2024.01.18-13.05.22:969][337]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/HapticEffects/FF_Death.FF_Death
+[2024.01.18-13.05.22:969][337]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/HapticEffects/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-13.05.22:969][337]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/HapticEffects/FF_TakeDamage.FF_TakeDamage
+[2024.01.18-13.05.23:971][422]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.18-13.05.24:062][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.18-13.05.25:115][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.05.25:286][458]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.18-13.05.25:287][458]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacter0AB37D464DE29F2648A5A1A41196BAD5.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.18-13.05.25:298][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 14.5 sec)
+[2024.01.18-13.05.25:300][458]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.18-13.05.25:300][458]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.18-13.05.27:898][748]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-13.05.27:904][748]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.18-13.05.27:936][748]LogPlayLevel: [PlayLevel] Compiling BP_Ennemy before play...
+[2024.01.18-13.05.28:367][748]LogPlayLevel: [PlayLevel] Compiling WBP_EndLevel before play...
+[2024.01.18-13.05.28:407][748]LogPlayLevel: [PlayLevel] Compiling WBP_MainMenu before play...
+[2024.01.18-13.05.28:436][748]LogPlayLevel: [PlayLevel] Compiling WBP_Vampire before play...
+[2024.01.18-13.05.28:466][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.01.18-13.05.28:477][748]LogPlayLevel: PlayLevel: Blueprint regeneration took 573 ms (4 blueprints)
+[2024.01.18-13.05.28:477][748]PIE: New page: PIE session: MAP_MainMenu (18 janv. 2024 à 15:05:28)
+[2024.01.18-13.05.28:512][748]LogPlayLevel: Creating play world package: /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.05.28:513][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000673s)
+[2024.01.18-13.05.28:513][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownShooter/Maps/MAP_MainMenu.MAP_MainMenu to /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu (0.000705s)
+[2024.01.18-13.05.28:525][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.18-13.05.28:528][748]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.05.28:528][748]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.05.28:529][748]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.01.18-13.05.28:529][748]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2024.01.18-13.05.28:529][748]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.05.28:529][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.18-13.05.28:529][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.05.28:530][748]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.05.28:530][748]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.05.28:530][748]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.05.28:532][748]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.05.28:556][748]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2024.01.18-13.05.28:556][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.05.28:556][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.05.28:556][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.05.28:557][748]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.01.18-13.05.28:557][748]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.01.18-13.05.28:559][748]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.01.18-13.05.28:559][748]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.01.18-13.05.28:559][748]LogInit: FAudioDevice initialized with ID 33.
+[2024.01.18-13.05.28:559][748]LogAudio: Display: Audio Device (ID: 33) registered with world 'MAP_MainMenu'.
+[2024.01.18-13.05.28:559][748]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.18-13.05.28:563][748]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.01.18-13.05.28:563][748]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.01.18-14.05.28
+[2024.01.18-13.05.28:563][748]LogWorld: Bringing up level for play took: 0.000270
+[2024.01.18-13.05.28:565][748]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.01.18-13.05.28:568][748]LogStreaming: Warning: Failed to read file 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/SaveGames/Global.sav' error.
+[2024.01.18-13.05.28:568][748]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.05.28:568][748]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.18-13.05.28:568][748]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.18-13.05.28:569][748]PIE: Server logged in
+[2024.01.18-13.05.28:570][748]PIE: Play in editor total start time 0,667 seconds.
+[2024.01.18-13.05.28:573][748]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'A_MainMenu_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.18-13.05.33:527][331]LogNet: Browse: /Game/TopDownShooter/Maps/MAP_MainLevel
+[2024.01.18-13.05.33:527][331]LogLoad: LoadMap: /Game/TopDownShooter/Maps/MAP_MainLevel
+[2024.01.18-13.05.33:527][331]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.05.33:529][331]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.05.33:529][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.05.33:562][331]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.05.33:564][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-13.05.33:575][331]LogAudio: Display: Audio Device (ID: 33) registered with world 'MAP_MainLevel'.
+[2024.01.18-13.05.33:575][331]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.05.33:575][331]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.05.33:575][331]LogAIModule: Creating AISystem for world MAP_MainLevel
+[2024.01.18-13.05.33:576][331]LogWorldPartition: ULevel::OnLevelLoaded(MAP_MainLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.18-13.05.33:576][331]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.18-13.05.33:576][331]LogWorldPartition: UWorldPartition::Initialize : World = MAP_MainLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.01.18-13.05.33:576][331]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.18-13.05.33:594][331]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' started...
+[2024.01.18-13.05.34:061][331]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' took 466 ms (total: 6.83 sec)
+[2024.01.18-13.05.34:076][331]LogContentBundle: [MAP_MainLevel(Standalone)] Creating new contrainer.
+[2024.01.18-13.05.34:076][331]LogWorldPartition: Display: WorldPartition initialize took 500 ms (total: 7.28 sec)
+[2024.01.18-13.05.34:076][331]LogPlayLevel: PIE: World Init took: (0.501758s)
+[2024.01.18-13.05.34:077][331]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.18-13.05.34:117][331]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel up for play (max tick rate 0) at 2024.01.18-14.05.34
+[2024.01.18-13.05.34:118][331]LogWorld: Bringing up level for play took: 0.040766
+[2024.01.18-13.05.34:124][331]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.05.34:125][331]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.05.34:128][331]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Juju
+[2024.01.18-13.05.34:128][331]LogLoad: Took 0.601104 seconds to LoadMap(/Game/TopDownShooter/Maps/MAP_MainLevel)
+[2024.01.18-13.05.35:373][440]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.01.18-13.05.35:373][440]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.01.18-13.06.12:374][394]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=10.123.128.196:50987, Sequence=0
+[2024.01.18-13.06.59:382][329]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.01.18-13.06.59:383][329]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3907.270 Y=6768.034 Z=111.176] for [BP_Ennemy_C]
+[2024.01.18-13.06.59:383][329]LogScript: Warning: Attempted to access BP_Ennemy_C_41 via property CallFunc_FinishSpawningActor_ReturnValue, but BP_Ennemy_C_41 is not valid (pending kill or garbage)
+	BP_ThirdPersonCharacter_C /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:13FF
+[2024.01.18-13.06.59:383][329]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Ennemy_C_41 via property CallFunc_FinishSpawningActor_ReturnValue, but BP_Ennemy_C_41 is not valid (pending kill or garbage)". Node:  Spawn System at Location Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2024.01.18-13.07.17:424][190]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 3/4 of stale message segements from Sender=10.123.128.202:56840, Sequence=0
+[2024.01.18-13.07.46:566][215]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.07.46:566][215]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.18-13.07.46:566][215]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.01.18-13.07.52:041][821]LogNet: Browse: /Game/TopDownShooter/Maps/MAP_MainMenu
+[2024.01.18-13.07.52:042][821]LogLoad: LoadMap: /Game/TopDownShooter/Maps/MAP_MainMenu
+[2024.01.18-13.07.52:042][821]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel
+[2024.01.18-13.07.52:044][821]LogWorld: UWorld::CleanupWorld for MAP_MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.07.52:049][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.07.52:060][821]LogContentBundle: [MAP_MainLevel(Standalone)] Deleting container.
+[2024.01.18-13.07.52:109][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.07.52:132][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.18-13.07.52:142][821]LogPlayLevel: Creating play world package: /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.07.52:143][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000761s)
+[2024.01.18-13.07.52:143][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownShooter/Maps/MAP_MainMenu.MAP_MainMenu to /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu (0.000809s)
+[2024.01.18-13.07.52:143][821]LogAudio: Display: Audio Device (ID: 33) registered with world 'MAP_MainMenu'.
+[2024.01.18-13.07.52:143][821]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.07.52:144][821]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.07.52:144][821]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.01.18-13.07.52:144][821]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2024.01.18-13.07.52:144][821]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.01.18-13.07.52:145][821]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.01.18-14.07.52
+[2024.01.18-13.07.52:145][821]LogWorld: Bringing up level for play took: 0.000272
+[2024.01.18-13.07.52:145][821]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.18-13.07.52:147][821]LogStreaming: Warning: Failed to read file 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/SaveGames/Global.sav' error.
+[2024.01.18-13.07.52:147][821]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.07.52:149][821]LogLoad: Took 0.107964 seconds to LoadMap(/Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu)
+[2024.01.18-13.07.52:150][821]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'A_MainMenu_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.18-13.07.53:513][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.07.53:513][977]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.07.53:513][977]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.07.53:513][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.07.53:517][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.07.53:522][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.07.53:534][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.07.53:534][977]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.18-13.07.53:534][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.18-13.07.53:537][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.18-13.07.53:542][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.07.53:544][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.01.18-13.07.53:669][978]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.01.18-13.07.55:820][196]LogSlate: Window 'Message Log' being destroyed
+[2024.01.18-13.07.55:825][196]LogSlate: Window 'Message Log' being destroyed
+[2024.01.18-13.08.12:495][994]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/4 of stale message segements from Sender=10.123.128.202:56840, Sequence=0
+[2024.01.18-13.08.19:491][742]LogAssetEditorSubsystem: Opening Asset editor for ForceFeedbackEffect /Game/TopDownShooter/HapticEffects/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-13.08.28:664][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.08.28:696][817]LogSavePackage: Moving output files for package: /Game/TopDownShooter/HapticEffects/FF_KillEnnemy
+[2024.01.18-13.08.28:697][817]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FF_KillEnnemy1265A96E4E5E1922C3E6C78DD778F255.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/HapticEffects/FF_KillEnnemy.uasset'
+[2024.01.18-13.08.28:707][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 14.6 sec)
+[2024.01.18-13.08.28:708][817]AssetCheck: New page: Asset Save: FF_KillEnnemy
+[2024.01.18-13.08.28:708][817]LogContentValidation: Display: Validating /Script/Engine.ForceFeedbackEffect /Game/TopDownShooter/HapticEffects/FF_KillEnnemy.FF_KillEnnemy
+[2024.01.18-13.08.29:737][924]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-13.08.29:743][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-13.08.29:743][924]PIE: New page: PIE session: MAP_MainMenu (18 janv. 2024 à 15:08:29)
+[2024.01.18-13.08.29:782][924]LogPlayLevel: Creating play world package: /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.08.29:783][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000716s)
+[2024.01.18-13.08.29:783][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownShooter/Maps/MAP_MainMenu.MAP_MainMenu to /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu (0.000748s)
+[2024.01.18-13.08.29:796][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.18-13.08.29:800][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.08.29:800][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.08.29:800][924]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.01.18-13.08.29:800][924]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2024.01.18-13.08.29:800][924]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-13.08.29:800][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.18-13.08.29:800][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-13.08.29:800][924]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-13.08.29:800][924]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-13.08.29:800][924]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-13.08.29:803][924]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-13.08.29:827][924]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2024.01.18-13.08.29:827][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-13.08.29:827][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-13.08.29:827][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-13.08.29:827][924]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.01.18-13.08.29:827][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.01.18-13.08.29:830][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.01.18-13.08.29:830][924]LogInit: FAudioDevice initialized with ID 34.
+[2024.01.18-13.08.29:830][924]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.01.18-13.08.29:830][924]LogAudio: Display: Audio Device (ID: 34) registered with world 'MAP_MainMenu'.
+[2024.01.18-13.08.29:830][924]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.18-13.08.29:832][924]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.01.18-13.08.29:833][924]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.01.18-14.08.29
+[2024.01.18-13.08.29:833][924]LogWorld: Bringing up level for play took: 0.000389
+[2024.01.18-13.08.29:835][924]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.01.18-13.08.29:838][924]LogStreaming: Warning: Failed to read file 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/SaveGames/Global.sav' error.
+[2024.01.18-13.08.29:838][924]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.08.29:838][924]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.18-13.08.29:838][924]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.18-13.08.29:839][924]PIE: Server logged in
+[2024.01.18-13.08.29:840][924]PIE: Play in editor total start time 0,098 seconds.
+[2024.01.18-13.08.29:841][924]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'A_MainMenu_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.18-13.08.34:203][439]LogNet: Browse: /Game/TopDownShooter/Maps/MAP_MainLevel
+[2024.01.18-13.08.34:203][439]LogLoad: LoadMap: /Game/TopDownShooter/Maps/MAP_MainLevel
+[2024.01.18-13.08.34:203][439]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainMenu
+[2024.01.18-13.08.34:205][439]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.08.34:205][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.08.34:252][439]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.08.34:254][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.18-13.08.34:263][439]LogAudio: Display: Audio Device (ID: 34) registered with world 'MAP_MainLevel'.
+[2024.01.18-13.08.34:263][439]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.08.34:263][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.08.34:263][439]LogAIModule: Creating AISystem for world MAP_MainLevel
+[2024.01.18-13.08.34:264][439]LogWorldPartition: ULevel::OnLevelLoaded(MAP_MainLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.18-13.08.34:264][439]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.18-13.08.34:264][439]LogWorldPartition: UWorldPartition::Initialize : World = MAP_MainLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.01.18-13.08.34:264][439]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.18-13.08.34:281][439]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' started...
+[2024.01.18-13.08.34:733][439]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' took 452 ms (total: 7.28 sec)
+[2024.01.18-13.08.34:751][439]LogContentBundle: [MAP_MainLevel(Standalone)] Creating new contrainer.
+[2024.01.18-13.08.34:751][439]LogWorldPartition: Display: WorldPartition initialize took 486 ms (total: 7.76 sec)
+[2024.01.18-13.08.34:751][439]LogPlayLevel: PIE: World Init took: (0.487558s)
+[2024.01.18-13.08.34:751][439]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.18-13.08.34:792][439]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel up for play (max tick rate 0) at 2024.01.18-14.08.34
+[2024.01.18-13.08.34:792][439]LogWorld: Bringing up level for play took: 0.041214
+[2024.01.18-13.08.34:798][439]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.08.34:800][439]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-13.08.34:804][439]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Juju
+[2024.01.18-13.08.34:804][439]LogLoad: Took 0.600160 seconds to LoadMap(/Game/TopDownShooter/Maps/MAP_MainLevel)
+[2024.01.18-13.08.35:882][543]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.01.18-13.08.35:882][543]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.01.18-13.09.24:932][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.09.24:932][646]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel
+[2024.01.18-13.09.24:933][646]LogWorld: UWorld::CleanupWorld for MAP_MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-13.09.24:938][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.09.24:947][646]LogContentBundle: [MAP_MainLevel(Standalone)] Deleting container.
+[2024.01.18-13.09.24:952][646]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-13.09.24:960][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-13.09.24:972][646]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-13.09.24:979][646]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.18-13.09.24:979][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.18-13.09.24:981][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.18-13.09.24:985][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-13.09.25:009][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.18-13.09.25:056][647]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.01.18-13.09.30:848][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.09.31:048][289]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.18-13.09.31:048][289]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_ThirdPersonCharacter718B640E4E17B24310BA2BB32A533E89.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.18-13.09.31:061][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 14.8 sec)
+[2024.01.18-13.09.31:063][289]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.18-13.09.31:063][289]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.18-13.09.35:720][757]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownShooter/Ennemies/BP_Projectile.BP_Projectile
+[2024.01.18-13.09.35:720][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-13.09.35:720][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-13.10.10:771][613]BlueprintLog: New page: Compile BP_Projectile
+[2024.01.18-13.10.10:805][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.01.18-13.10.11:532][650]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-13.10.11:692][650]LogSavePackage: Moving output files for package: /Game/TopDownShooter/Ennemies/BP_Projectile
+[2024.01.18-13.10.11:692][650]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/BP_Projectile01148A0C43C0AFBF4E8CDC978D757D64.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/TopDownShooter/Ennemies/BP_Projectile.uasset'
+[2024.01.18-13.10.11:705][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 15.0 sec)
+[2024.01.18-13.10.11:706][650]AssetCheck: New page: Asset Save: BP_Projectile
+[2024.01.18-13.10.11:706][650]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDownShooter/Ennemies/BP_Projectile.BP_Projectile
