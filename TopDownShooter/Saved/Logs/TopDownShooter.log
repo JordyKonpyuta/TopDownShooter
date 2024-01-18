@@ -8181,3 +8181,211 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.18-10.04.39:943][176]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63F2AD001_1978009395
 [2024.01.18-10.04.40:020][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2024.01.18-10.04.42:809][419]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=10.123.128.206:61197, Sequence=0
+[2024.01.18-10.08.54:102][ 99]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.18-10.08.54:107][ 99]LogContentBundle: [MAP_MainLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.18-10.08.54:107][ 99]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' started...
+[2024.01.18-10.08.54:133][ 99]LogWorldPartition: Display: GenerateStreaming for 'MAP_MainLevel' took 25 ms (total: 298 ms)
+[2024.01.18-10.08.54:133][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.18-10.08.54:133][ 99]PIE: New page: PIE session: MAP_MainLevel (18 janv. 2024 à 12:08:54)
+[2024.01.18-10.08.54:155][ 99]LogPlayLevel: Creating play world package: /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel
+[2024.01.18-10.08.54:216][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062774s)
+[2024.01.18-10.08.54:217][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel to /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel (0.062820s)
+[2024.01.18-10.08.54:253][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.18-10.08.54:255][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.18-10.08.54:255][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.18-10.08.54:255][ 99]LogAIModule: Creating AISystem for world MAP_MainLevel
+[2024.01.18-10.08.54:256][ 99]LogWorldPartition: ULevel::OnLevelLoaded(MAP_MainLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.18-10.08.54:256][ 99]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.18-10.08.54:256][ 99]LogWorldPartition: UWorldPartition::Initialize : World = MAP_MainLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.18-10.08.54:256][ 99]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.18-10.08.54:273][ 99]LogContentBundle: [MAP_MainLevel(Standalone)] Creating new contrainer.
+[2024.01.18-10.08.54:273][ 99]LogWorldPartition: Display: WorldPartition initialize took 16 ms (total: 603 ms)
+[2024.01.18-10.08.54:273][ 99]LogPlayLevel: PIE: World Init took: (0.018074s)
+[2024.01.18-10.08.54:273][ 99]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.18-10.08.54:273][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.18-10.08.54:273][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.18-10.08.54:274][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.18-10.08.54:274][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.18-10.08.54:274][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.18-10.08.54:276][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.18-10.08.54:300][ 99]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2024.01.18-10.08.54:300][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.18-10.08.54:300][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.18-10.08.54:300][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.18-10.08.54:301][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.18-10.08.54:301][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.18-10.08.54:303][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.18-10.08.54:303][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.18-10.08.54:303][ 99]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.18-10.08.54:303][ 99]LogAudio: Display: Audio Device (ID: 13) registered with world 'MAP_MainLevel'.
+[2024.01.18-10.08.54:303][ 99]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.18-10.08.54:315][ 99]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.18-10.08.54:353][ 99]LogWorld: Bringing World /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel up for play (max tick rate 0) at 2024.01.18-11.08.54
+[2024.01.18-10.08.54:354][ 99]LogWorld: Bringing up level for play took: 0.037691
+[2024.01.18-10.08.54:356][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.01.18-10.08.54:361][ 99]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-10.08.54:361][ 99]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.01.18-10.08.54:361][ 99]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.01.18-10.08.54:365][ 99]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.01.18-10.08.54:367][ 99]PIE: Server logged in
+[2024.01.18-10.08.54:368][ 99]PIE: Play in editor total start time 0,261 seconds.
+[2024.01.18-10.08.57:510][389]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.01.18-10.08.57:510][389]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.01.18-10.09.04:867][188]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.08:819][610]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.11:072][847]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.12:637][ 14]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.15:482][320]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.16:944][477]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.18:534][648]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.20:602][875]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.21:599][982]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.23:502][186]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.24:618][307]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.27:826][655]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.32:357][152]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.37:520][707]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.01.18-10.09.37:520][707]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2958.504 Y=5998.679 Z=96.290] for [BP_Ennemy_C]
+[2024.01.18-10.09.37:520][707]LogScript: Warning: Attempted to access BP_Ennemy_C_19 via property CallFunc_FinishSpawningActor_ReturnValue, but BP_Ennemy_C_19 is not valid (pending kill or garbage)
+	BP_ThirdPersonCharacter_C /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel.MAP_MainLevel:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:129E
+[2024.01.18-10.09.37:520][707]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Ennemy_C_19 via property CallFunc_FinishSpawningActor_ReturnValue, but BP_Ennemy_C_19 is not valid (pending kill or garbage)". Node:  Spawn System at Location Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2024.01.18-10.09.38:030][762]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.39:081][876]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.44:462][458]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.45:921][609]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.46:667][687]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.47:360][760]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.49:309][969]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.52:036][261]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.56:575][746]LogPlayerController: Warning: Invalid hand specified (2) for haptic feedback effect HF_KillEnnemy
+[2024.01.18-10.09.58:404][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-10.09.58:404][935]LogWorld: BeginTearingDown for /Game/TopDownShooter/Maps/UEDPIE_0_MAP_MainLevel
+[2024.01.18-10.09.58:406][935]LogWorld: UWorld::CleanupWorld for MAP_MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.18-10.09.58:410][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-10.09.58:411][935]LogContentBundle: [MAP_MainLevel(Standalone)] Deleting container.
+[2024.01.18-10.09.58:415][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.18-10.09.58:421][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.18-10.09.58:470][935]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.18-10.09.58:471][935]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.18-10.09.58:471][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.18-10.09.58:473][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.18-10.09.58:477][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.18-10.09.58:491][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.18-10.09.58:705][936]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.18-10.10.00:277][ 67]LogSlate: Window 'Message Log' being destroyed
+[2024.01.18-10.10.00:292][ 67]LogSlate: Window 'Message Log' being destroyed
+[2024.01.18-10.10.22:723][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.18-10.10.22:813][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.18-10.10.22:849][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.18-10.10.22:883][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.01.18-10.10.22:885][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/8/DH/TXPTUTG5K3SPHN7X4ZFG7G
+[2024.01.18-10.10.22:886][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/TXPTUTG5K3SPHN7X4ZFG7GCF1A58E944430352D9853B84C14FB033.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/8/DH/TXPTUTG5K3SPHN7X4ZFG7G.uasset'
+[2024.01.18-10.10.22:888][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/5/TK/Q5XFBX0QGJO1C2LRT1UPLK
+[2024.01.18-10.10.22:888][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/Q5XFBX0QGJO1C2LRT1UPLKC447B33E4AFABA99A10B4E9D53C3E845.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/5/TK/Q5XFBX0QGJO1C2LRT1UPLK.uasset'
+[2024.01.18-10.10.22:890][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/5J/4UU4HT3DNQZSS1521XI0UO
+[2024.01.18-10.10.22:891][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/4UU4HT3DNQZSS1521XI0UO68FEB55443FCF003FC7717B86D37A7F9.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/5J/4UU4HT3DNQZSS1521XI0UO.uasset'
+[2024.01.18-10.10.22:893][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/B/Q1/MZ3M4MGFKA0Y6UQH1TU8YS
+[2024.01.18-10.10.22:893][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/MZ3M4MGFKA0Y6UQH1TU8YS746D7A1B40B2C2B576F225B1E0AB63E3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/B/Q1/MZ3M4MGFKA0Y6UQH1TU8YS.uasset'
+[2024.01.18-10.10.22:896][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/F/00/N35WUZ53JH9KCBLDIGBUP8
+[2024.01.18-10.10.22:896][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/N35WUZ53JH9KCBLDIGBUP80C3DD74C4A4FA900BBFA538256DC03F3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/F/00/N35WUZ53JH9KCBLDIGBUP8.uasset'
+[2024.01.18-10.10.22:898][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/4/1D/XWNVMGXCOSVNM7BEQHD32P
+[2024.01.18-10.10.22:898][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/XWNVMGXCOSVNM7BEQHD32PA72EA0614BF463966936069B6396C165.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/4/1D/XWNVMGXCOSVNM7BEQHD32P.uasset'
+[2024.01.18-10.10.22:901][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/A3/OCAKGH4FGDX7NW94WNVO51
+[2024.01.18-10.10.22:901][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/OCAKGH4FGDX7NW94WNVO51C2B281154D1D067D17D011BDDCD60F95.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/A3/OCAKGH4FGDX7NW94WNVO51.uasset'
+[2024.01.18-10.10.22:903][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/A/2W/I1ENUL703FPF7Y544DGEY8
+[2024.01.18-10.10.22:904][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/I1ENUL703FPF7Y544DGEY8405CC72B4CB2FA144F5354B1700D08FE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/A/2W/I1ENUL703FPF7Y544DGEY8.uasset'
+[2024.01.18-10.10.22:906][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/E/CG/HNEHF094CKFY4J47G0OJKB
+[2024.01.18-10.10.22:906][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/HNEHF094CKFY4J47G0OJKBFB3A8E4D49369F6E7CA38197F89E7A4C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/E/CG/HNEHF094CKFY4J47G0OJKB.uasset'
+[2024.01.18-10.10.22:909][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/9/MW/TUCVC0T0C8W7ZAIE0HGVZB
+[2024.01.18-10.10.22:909][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/TUCVC0T0C8W7ZAIE0HGVZBFFF82D2B4B428340D8177599A07DD8CA.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/9/MW/TUCVC0T0C8W7ZAIE0HGVZB.uasset'
+[2024.01.18-10.10.22:911][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/N2/9U3T8DY7V2F1YZR3U47YMU
+[2024.01.18-10.10.22:911][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/9U3T8DY7V2F1YZR3U47YMUED184E6540F6C7F884146D90E6866AAE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/N2/9U3T8DY7V2F1YZR3U47YMU.uasset'
+[2024.01.18-10.10.22:914][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/9/WX/C3LDZX0ZYLJNB7R2KJ0GLB
+[2024.01.18-10.10.22:914][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/C3LDZX0ZYLJNB7R2KJ0GLB60945A444AE398BD62BF209C93584A17.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/9/WX/C3LDZX0ZYLJNB7R2KJ0GLB.uasset'
+[2024.01.18-10.10.22:916][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/2X/3VYYCHU67P5CXJCF0T4UN3
+[2024.01.18-10.10.22:916][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/3VYYCHU67P5CXJCF0T4UN3F236447B463CBEC6BDC9BDA36859C0EA.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/2X/3VYYCHU67P5CXJCF0T4UN3.uasset'
+[2024.01.18-10.10.22:919][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/3/TA/EOY4JHZHE9G2S3COQ2S2TX
+[2024.01.18-10.10.22:919][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/EOY4JHZHE9G2S3COQ2S2TXE82FBF7342F51258D2FEA5BB6293D22C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/3/TA/EOY4JHZHE9G2S3COQ2S2TX.uasset'
+[2024.01.18-10.10.22:921][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/OS/7GV30WSA89BLMEMTBS93MN
+[2024.01.18-10.10.22:921][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/7GV30WSA89BLMEMTBS93MN18CBC1BB4755021FDD3939ADF15DF9D6.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/OS/7GV30WSA89BLMEMTBS93MN.uasset'
+[2024.01.18-10.10.22:924][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/SG/VSJ33J99MWPMWWELWLB1RY
+[2024.01.18-10.10.22:924][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/VSJ33J99MWPMWWELWLB1RY6A27172D4619A54BE0DF91AC85AAB02C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/SG/VSJ33J99MWPMWWELWLB1RY.uasset'
+[2024.01.18-10.10.22:926][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/A/5N/2RUQFV3LXU0UUHB4H40HE0
+[2024.01.18-10.10.22:926][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/2RUQFV3LXU0UUHB4H40HE0BB58FC7F47CEF1DB03ACAEB6EBCB2AD3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/A/5N/2RUQFV3LXU0UUHB4H40HE0.uasset'
+[2024.01.18-10.10.22:929][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/AS/UPBP5YSZ429I5LHS2M6S3V
+[2024.01.18-10.10.22:929][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/UPBP5YSZ429I5LHS2M6S3V50045B79457A5F5668FEA5B4EE32B401.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/AS/UPBP5YSZ429I5LHS2M6S3V.uasset'
+[2024.01.18-10.10.22:931][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/E/GA/R7NR5TQSAR1YJG411NV28T
+[2024.01.18-10.10.22:931][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/R7NR5TQSAR1YJG411NV28TAED202634957A6FB30334E90E4D56440.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/E/GA/R7NR5TQSAR1YJG411NV28T.uasset'
+[2024.01.18-10.10.22:933][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/OE/FAAN4NFSYNVQ8PK9X95CX9
+[2024.01.18-10.10.22:934][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/FAAN4NFSYNVQ8PK9X95CX9F132AA254E92A8A6607CF89D23A44F6C.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/OE/FAAN4NFSYNVQ8PK9X95CX9.uasset'
+[2024.01.18-10.10.22:936][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/J9/265IXFWMH61KX3Q9ASKJ9J
+[2024.01.18-10.10.22:936][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/265IXFWMH61KX3Q9ASKJ9JB5B2FFD344F9735E9E8A14B1FD7A0492.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/D/J9/265IXFWMH61KX3Q9ASKJ9J.uasset'
+[2024.01.18-10.10.22:939][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/3/BN/TX2GZUOHH5SDFVFJ33G7BI
+[2024.01.18-10.10.22:939][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/TX2GZUOHH5SDFVFJ33G7BI710D90BE4F705CA9913CF69626635C01.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/3/BN/TX2GZUOHH5SDFVFJ33G7BI.uasset'
+[2024.01.18-10.10.22:942][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/6/3K/50Z27311UMNX12H757TXP2
+[2024.01.18-10.10.22:942][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/50Z27311UMNX12H757TXP228F1B1B9499490BD2049A589570253AE.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/6/3K/50Z27311UMNX12H757TXP2.uasset'
+[2024.01.18-10.10.22:945][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/8/2Z/3UFUY5AMKXXLCWOUR9ET1Z
+[2024.01.18-10.10.22:945][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/3UFUY5AMKXXLCWOUR9ET1ZDCE2C794417C71005CA29A8EEE21B9EF.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/8/2Z/3UFUY5AMKXXLCWOUR9ET1Z.uasset'
+[2024.01.18-10.10.22:947][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/CU/9ULS91AZVES1HMTM2F78A7
+[2024.01.18-10.10.22:947][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/9ULS91AZVES1HMTM2F78A718CD07FD4ED8E79FB8DC12B216818C8F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/CU/9ULS91AZVES1HMTM2F78A7.uasset'
+[2024.01.18-10.10.22:950][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/C/21/RGXVGY5P1DOLOA5FICPSU5
+[2024.01.18-10.10.22:950][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/RGXVGY5P1DOLOA5FICPSU5BCD4DA65411E2FFF8FE03DAD9F3C2689.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/C/21/RGXVGY5P1DOLOA5FICPSU5.uasset'
+[2024.01.18-10.10.22:953][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/VX/LALYDNHXREMAHFEQVK3APV
+[2024.01.18-10.10.22:953][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/LALYDNHXREMAHFEQVK3APVE7CD6365409D92FEE4EA6C8EB2CDAB48.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/VX/LALYDNHXREMAHFEQVK3APV.uasset'
+[2024.01.18-10.10.22:955][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/98/K1RR4BQTWBL67PBMBHVGOE
+[2024.01.18-10.10.22:956][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/K1RR4BQTWBL67PBMBHVGOE877555D04FC2FE2AB4068EBB436BB4C3.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/98/K1RR4BQTWBL67PBMBHVGOE.uasset'
+[2024.01.18-10.10.22:958][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/QT/0NF4V60BAYG9GPW5BZK9Y0
+[2024.01.18-10.10.22:958][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/0NF4V60BAYG9GPW5BZK9Y0D914CAE24CBEFB5EA66ACF9DB55A988F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/QT/0NF4V60BAYG9GPW5BZK9Y0.uasset'
+[2024.01.18-10.10.22:961][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/JO/MQC2PULWF7OMEX2AFQFJDX
+[2024.01.18-10.10.22:961][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/MQC2PULWF7OMEX2AFQFJDX3B69364C4EF7D8C35357919ACD6EFB59.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/7/JO/MQC2PULWF7OMEX2AFQFJDX.uasset'
+[2024.01.18-10.10.22:964][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/04/G26H80N6GOTFICSOM0M08J
+[2024.01.18-10.10.22:964][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/G26H80N6GOTFICSOM0M08JF530447E4D1AD738AA127F989867A72F.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/04/G26H80N6GOTFICSOM0M08J.uasset'
+[2024.01.18-10.10.22:966][228]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/XU/11G8W0AJBE9LB6MN2M3INF
+[2024.01.18-10.10.22:966][228]LogSavePackage: Moving 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Saved/11G8W0AJBE9LB6MN2M3INF6DE8314247A6061794720BAA43884403.tmp' to 'D:/EDUSERVICES/Documents/GitHub/TopDownShooter/TopDownShooter/Content/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/0/XU/11G8W0AJBE9LB6MN2M3INF.uasset'
+[2024.01.18-10.10.22:976][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 6.02 sec)
+[2024.01.18-10.10.22:983][228]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1175580611
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1175584614
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1175583613
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1175582612
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1158009610
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1147176609
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1144226608
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1191725615
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1128533606
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1135732607
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1243325617
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1265333618
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1268765619
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1270605620
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1277188621
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1285084622
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1285087623
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1285088624
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1285089625
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1285090626
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1306153627
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1336588628
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1359817629
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1399660630
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1402595631
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1404757632
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1407508633
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1409502634
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1411611635
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1413413636
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1415618637
+[2024.01.18-10.10.22:983][228]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63FB2D001_1422709638
+[2024.01.18-10.10.36:555][639]LogWorldPartition: Actor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63F2AD001_1265477323 is unreachable without properly detaching object /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/2/ZO/VHG0BPPMJ5SKXUZEE9070W.PackageMetaData in its package
+[2024.01.18-10.10.36:555][639]LogWorldPartition: Actor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63F2AD001_1269088324 is unreachable without properly detaching object /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/3/KZ/4RUCC7JAKD6KD9MFE51LKE.PackageMetaData in its package
+[2024.01.18-10.10.36:555][639]LogWorldPartition: Actor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63F2BD001_1438267672 is unreachable without properly detaching object /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/6/TO/GV3X2HANPN581O9WYBA777.PackageMetaData in its package
+[2024.01.18-10.10.36:555][639]LogWorldPartition: Actor /Game/TopDownShooter/Maps/MAP_MainLevel.MAP_MainLevel:PersistentLevel.StaticMeshActor_UAID_9C7BEF28E63F2BD001_1441843673 is unreachable without properly detaching object /Game/__ExternalActors__/TopDownShooter/Maps/MAP_MainLevel/8/LF/1KC6MIPNY9PRQ1KB3KZ1UE.PackageMetaData in its package
+[2024.01.18-10.10.36:558][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.18-10.10.36:606][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
